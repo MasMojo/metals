@@ -272,6 +272,65 @@ td.num, th.num { text-align: right; font-family: var(--mono); }
 .footnotes ol, .footnotes ul { margin: 0; padding-left: 1.2rem; display: grid; gap: 6px; }
 .footnotes a { color: var(--text); }
 
+
+.fair-layout {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  align-items: start;
+}
+.split-label { display: grid; gap: 8px; margin-top: 16px; }
+.split-label input[type="range"] {
+  width: 100%;
+  accent-color: var(--gold);
+  padding: 0;
+  background: transparent;
+  border: 0;
+}
+.split-ends {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 0.75rem;
+  color: var(--muted);
+  margin-top: 4px;
+}
+.fd-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+.fd-range { margin-top: 10px; }
+.fd-range-track {
+  position: relative;
+  height: 12px;
+  border-radius: 999px;
+  background: var(--bg-soft);
+  border: 1px solid var(--line);
+  margin: 8px 0 6px;
+}
+.fd-range-fill {
+  position: absolute;
+  top: 0; bottom: 0;
+  left: 25%;
+  width: 50%;
+  background: var(--gold-dim);
+  border-radius: 999px;
+}
+.fd-range-mark {
+  position: absolute;
+  top: -4px;
+  width: 4px;
+  height: 20px;
+  margin-left: -2px;
+  background: var(--gold);
+  border-radius: 2px;
+  left: 50%;
+}
+.checklist, .trade-list { margin: 10px 0 0; padding-left: 1.2rem; display: grid; gap: 8px; }
+.checklist li, .trade-list li { padding-left: 4px; }
+.trade-list a { font-weight: 600; }
+
+@media (max-width: 860px) {
+  .fair-layout { grid-template-columns: 1fr; }
+}
+
 @media (max-width: 720px) {
   .header-inner { flex-wrap: wrap; padding: 8px 0 10px; }
   nav.primary { order: 3; width: 100%; }

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10120e">
+  <meta name="description" content="Peer-to-peer fair-deal calculator for bullion: split a dealer’s bid and ask, adjust shipping and platform fees, plus a safety checklist and where to trade.">
+  <title>Fair Deal — Stack Mojo</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/icons/icon-192.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=IBM+Plex+Mono:wght@400;500&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/app.css">
+  <script src="js/core.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html">
+        <span class="mark" aria-hidden="true">M</span>
+        <span><span class="brand-name">Stack <span>Mojo</span></span><span class="brand-tag">Spot · Ratios · Tools</span></span>
+      </a>
+      <nav class="primary" aria-label="Primary">
+        <a href="index.html">Dashboard</a>
+        <a href="charts.html">Charts</a>
+        <a href="calculators.html">Calculators</a>
+        <a href="fair-deal.html" aria-current="page">Fair Deal</a>
+        <a href="stack.html">My Stack</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-btn" type="button" id="theme-toggle" title="Toggle theme" aria-label="Toggle color theme">◐</button>
+      </div>
+    </div>
+  </header>
+
+<main class="wrap" id="fair-deal-page">
+
+  <section class="hero">
+    <div>
+      <h1>Fair Deal</h1>
+      <p class="lede">A worksheet for a private sale between two people. Type the dealer ask (what you would pay to buy) and the dealer bid (what they would pay to buy it back). The calculator suggests a peer price in that spread. This site does not list dealers and does not fill those prices for you.</p>
+    </div>
+  </section>
+
+  <div class="fair-layout">
+    <section class="card" id="fd-inputs">
+      <h2>Inputs</h2>
+      <p class="muted">Spot defaults to the live Gold API last price and is editable. Ask and bid are per unit, in dollars, typed by you.</p>
+      <div class="form-grid">
+        <label>Metal
+          <select id="fd-metal">
+            <option value="xag" selected>Silver</option>
+            <option value="xau">Gold</option>
+            <option value="xpt">Platinum</option>
+          </select>
+        </label>
+        <label>Product preset
+          <select id="fd-preset"></select>
+        </label>
+        <label>Fine ounces per unit <span id="fd-unit-hint" class="muted"></span>
+          <input id="fd-oz" type="number" min="0" step="any" value="1">
+        </label>
+        <label>Quantity
+          <input id="fd-qty" type="number" min="0" step="any" value="1">
+        </label>
+        <label>Spot (USD / ozt)
+          <input id="fd-spot" type="number" min="0" step="any" inputmode="decimal">
+        </label>
+        <label>&nbsp;
+          <button class="btn" type="button" id="fd-use-live">Use live spot</button>
+        </label>
+        <label>Dealer bid (buy-back)
+          <input id="fd-bid" type="number" min="0" step="any" inputmode="decimal" placeholder="e.g. 40.00 — example only">
+        </label>
+        <label>Dealer ask (you’d pay)
+          <input id="fd-ask" type="number" min="0" step="any" inputmode="decimal" placeholder="e.g. 50.00 — example only">
+        </label>
+      </div>
+      <p class="muted" id="fd-spot-live" style="margin-top:8px"></p>
+      <p class="muted" id="fd-preset-note"></p>
+      <label class="split-label">Split <span id="fd-split-label">50% of the spread (0% = dealer bid, 100% = dealer ask)</span>
+        <input id="fd-split" type="range" min="0" max="100" step="1" value="50">
+      </label>
+      <div class="split-ends"><span>Near the bid (better for the buyer)</span><span>Near the ask (better for the seller)</span></div>
+      <div class="fd-actions">
+        <button class="btn" type="button" id="fd-example">Fill example ($40 bid / $50 ask)</button>
+        <button class="btn" type="button" id="fd-clear">Clear saved inputs</button>
+      </div>
+      <p class="muted" id="fd-example-note"></p>
+    </section>
+
+    <section class="card" id="fd-outputs">
+      <h2>Suggested fair peer price</h2>
+      <div class="calc-out">
+        <div>Spot value / unit: <span id="fd-spot-unit">—</span></div>
+        <div>Spot value total: <span id="fd-spot-total">—</span></div>
+        <div>Dealer spread: <span id="fd-spread-unit">—</span> <span class="muted" id="fd-spread-pct"></span></div>
+        <div class="muted" id="fd-spread-total"></div>
+        <div>Fair peer price / unit: <span class="big" id="fd-fair-unit">—</span></div>
+        <div id="fd-fair-vs-spot">—</div>
+        <div id="fd-fair-total"></div>
+      </div>
+      <p id="fd-win-seller" style="margin:14px 0 4px"></p>
+      <p id="fd-win-buyer" style="margin:0 0 14px"></p>
+      <p class="muted" id="fd-band"></p>
+      <div class="fd-range" aria-hidden="true">
+        <div class="fd-range-track" id="fd-range-track">
+          <div class="fd-range-fill" id="fd-range-fill"></div>
+          <div class="fd-range-mark" id="fd-range-mark"></div>
+        </div>
+        <div class="split-ends"><span>Bid</span><span>25%</span><span>75%</span><span>Ask</span></div>
+      </div>
+      <p class="muted" style="margin-top:12px">Fair price = dealer bid + split × (ask − bid). The shaded band is 25–75% of that spread. Common Eagles typically trade a few dollars over spot between peers.</p>
+
+      <h3 style="margin-top:22px">Shipping and platform fees</h3>
+      <div class="form-grid">
+        <label>Shipping $
+          <input id="fd-ship" type="number" min="0" step="any" value="0">
+        </label>
+        <label>Who pays shipping
+          <select id="fd-who-pays">
+            <option value="buyer" selected>Buyer</option>
+            <option value="seller">Seller (price includes shipping)</option>
+            <option value="split">Split 50 / 50</option>
+          </select>
+        </label>
+        <label>Platform
+          <select id="fd-fee-preset"></select>
+        </label>
+        <label>Platform fee %
+          <input id="fd-fee" type="number" min="0" step="any" value="0">
+        </label>
+        <label class="toggle" style="align-self:end"><input type="checkbox" id="fd-fee-ship"> Apply fee to shipping too</label>
+      </div>
+      <p class="muted" id="fd-fee-hint" style="margin-top:8px"></p>
+      <div class="calc-out" style="margin-top:12px">
+        <div>Platform fee: <span id="fd-fee-amt">—</span></div>
+        <div>Net to the seller: <span class="big" id="fd-net-seller">—</span></div>
+        <div>All-in for the buyer: <span class="big" id="fd-allin-buyer">—</span></div>
+      </div>
+      <p class="muted" id="fd-net-note" style="margin-top:8px"></p>
+    </section>
+  </div>
+
+  <section class="card" style="margin-top:22px">
+    <h2>Safety checklist</h2>
+    <p class="muted">This is practical hygiene for a private metal sale, not legal advice. Rules and insurance limits change — verify before you ship or pay.</p>
+    <ul class="checklist">
+      <li>Verify reputation and feedback before you send money or metal. Read a user’s history, not just a single post.</li>
+      <li>On r/Pmsforsale, comment on the listing before dealing — that is a subreddit rule, not optional courtesy.</li>
+      <li>Beware of impersonators and typo usernames. Confirm you are talking to the account that made the post.</li>
+      <li>New members typically ship first, or both sides use a trusted middleman, until a track record exists.</li>
+      <li>Use Registered Mail for bullion. Regular USPS indemnity for coins and bullion is commonly only $15; Registered Mail can insure up to $50,000. Confirm current USPS rules and declared value before you ship.</li>
+      <li>Avoid PayPal Friends &amp; Family — there is no purchase protection. PayPal also excludes most precious-metal bullion from Purchase Protection, so a Goods &amp; Services payment may still not cover gold or silver. Use a method both sides understand.</li>
+      <li>For local cash deals, meet in public (a well-used place, ideally with cameras). Do not go to a private home or parking garage with a stranger and a stack of metal or cash.</li>
+      <li>Test the metal: a magnet check, ping, scale and calipers, and a Sigma or XRF if you have access. Fake premium coins exist.</li>
+      <li>Keep records for taxes: what you paid, what you sold for, dates, and shipping. Reporting rules depend on your situation; this page does not prepare a return.</li>
+    </ul>
+  </section>
+
+  <section class="card" style="margin-top:22px">
+    <h2>Where to trade</h2>
+    <p class="muted">Public marketplaces and forums, listed only as places people use. This is not an endorsement, and none of them are affiliated with Stack Mojo. Read each venue’s rules and fee schedule yourself. No personal locations are listed here — look up coin shows and clubs in your own area.</p>
+    <ul class="trade-list">
+      <li><a href="https://www.reddit.com/r/Pmsforsale/about/">r/Pmsforsale rules</a> — peer listings on Reddit. Start with the rules; fees are typically just shipping.</li>
+      <li><a href="https://www.collectpure.com">Pure</a> (collectpure.com) — peer marketplace with an approximate ~1% fee (verify).</li>
+      <li><a href="https://peermetals.com">PeerMetals</a> — peer marketplace; illustrative fee used here is 2.75% (verify).</li>
+      <li><a href="https://www.whatnot.com">Whatnot</a> — live auctions; blended fees are often around ~7% and vary (verify).</li>
+      <li><a href="https://www.ebay.com">eBay</a> — huge audience, higher fees (illustrative 13.6%; often also charged on shipping — verify the current schedule).</li>
+      <li>Local coin shows and clubs — in-person inspection, usually cash or a mutually agreed payment. Search ANA, state numismatic associations, or a local club calendar. This site does not recommend a venue or meeting place.</li>
+    </ul>
+  </section>
+
+  <p class="notice" style="margin-top:22px"><strong>Not financial, legal, or tax advice.</strong> Figures are a worksheet from numbers you type and an indicative live spot. Fees, insurance limits, and platform rules change — verify them at the source before you trade. Suggested “fair” prices are not quotes, and a deal is only fair if both people agree to it. There are no dealer prices on this site.</p>
+
+</main>
+  <script src="js/prices.js"></script>
+  <script src="js/fair-deal.js"></script>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p><strong>Indicative prices, not quotes, not financial advice.</strong> Figures can be delayed or wrong. Verify before you trade.</p>
+      <p>Live last prices: <a href="https://gold-api.com">Gold API</a>. Bid/ask, day change, and metals history: <a href="https://standardbullion.com">Data by Standard Bullion</a>. Bitcoin and ether 24-hour change and last-year history: <a href="https://www.coingecko.com">CoinGecko</a>. Longer Bitcoin history: <a href="https://www.blockchain.com">Blockchain.com</a>. CPI-U and monthly copper: <a href="https://fred.stlouisfed.org">FRED</a> series CPIAUCSL and PCOPPUSDM (no API key; copper converted from USD/metric ton to USD/lb).</p>
+      <p>Stack Mojo is a free public dashboard. Holdings entered in My Stack stay in this browser only and are never uploaded. There are no dealer prices on this site. Fair Deal inputs stay in this browser only.</p>
+    </div>
+  </footer>
+  <script>
+    document.getElementById("theme-toggle")?.addEventListener("click", () => Mojo.toggleTheme());
+  </script>
+  <script src="js/sw-register.js"></script>
+</body>
+</html>

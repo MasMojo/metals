@@ -1,9 +1,10 @@
-const CACHE = "stackmojo-v2";
+const CACHE = "stackmojo-v3";
 const SHELL = [
   "./",
   "./index.html",
   "./charts.html",
   "./calculators.html",
+  "./fair-deal.html",
   "./stack.html",
   "./css/app.css",
   "./js/core.js",
@@ -11,6 +12,7 @@ const SHELL = [
   "./js/dashboard.js",
   "./js/charts.js",
   "./js/calc.js",
+  "./js/fair-deal.js",
   "./js/stack.js",
   "./js/alerts.js",
   "./js/sw-register.js",
