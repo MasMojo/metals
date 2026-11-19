@@ -239,6 +239,39 @@ td.num, th.num { text-align: right; font-family: var(--mono); }
 .muted { color: var(--muted); }
 .right { margin-left: auto; }
 
+
+.toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.9rem;
+  color: var(--text);
+  cursor: pointer;
+  user-select: none;
+}
+.toggle input { accent-color: var(--gold); width: 1rem; height: 1rem; }
+
+.sets-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px 18px;
+  align-items: end;
+  margin: 12px 0 16px;
+}
+.table-wrap { overflow-x: auto; max-height: 640px; overflow-y: auto; border: 1px solid var(--line); border-radius: 12px; }
+.sets-table { margin: 0; }
+.sets-table thead th { position: sticky; top: 0; background: var(--bg-elev); z-index: 1; }
+.sets-table .set-name { font-weight: 600; }
+.sets-table .row-note { color: var(--muted); font-size: 0.82rem; margin-top: 4px; max-width: 42rem; }
+.sets-table .row-coins { font-size: 0.88rem; max-width: 28rem; }
+.sets-table tr.highlight { background: var(--gold-dim); }
+.sets-table tr.varies td.num, .sets-table tr.none td.num { color: var(--muted); font-style: italic; font-family: var(--sans, inherit); }
+
+.footnotes { margin-top: 22px; font-size: 0.88rem; color: var(--muted); display: grid; gap: 8px; }
+.footnotes h3 { color: var(--text); font-size: 0.95rem; margin: 8px 0 0; }
+.footnotes ol, .footnotes ul { margin: 0; padding-left: 1.2rem; display: grid; gap: 6px; }
+.footnotes a { color: var(--text); }
+
 @media (max-width: 720px) {
   .header-inner { flex-wrap: wrap; padding: 8px 0 10px; }
   nav.primary { order: 3; width: 100%; }

@@ -1,4 +1,4 @@
-const CACHE = "stackmojo-v1";
+const CACHE = "stackmojo-v2";
 const SHELL = [
   "./",
   "./index.html",

@@ -140,6 +140,95 @@
     setText("s-be", beMove != null ? Mojo.formatMoney(beMove) + " / oz (" + Mojo.formatPct(bePct) + ")" : "—");
   }
 
+  const KIND_LABEL = {
+    proof: "Proof set",
+    silver_proof: "Silver Proof set",
+    sms: "Special Mint Set",
+    mint: "Mint set",
+    special: "Special / separate",
+  };
+
+  let setDoc = null;
+
+  async function loadSets() {
+    try {
+      setDoc = await Mojo.fetchJson("data/us-sets.json", { timeout: 20000 });
+    } catch (e) {
+      setDoc = { sets: [], sources: [], caveats: [String(e && e.message ? e.message : e)] };
+    }
+    renderSetFootnotes();
+    renderSets();
+  }
+
+  function renderSetFootnotes() {
+    const el = $("sets-footnotes");
+    if (!el || !setDoc) return;
+    const conv = setDoc.conventions || {};
+    const sources = (setDoc.sources || []).map((s) => {
+      const link = s.url ? `<a href="${s.url}">${s.name}</a>` : s.name;
+      return `<li>${link} — ${s.what || ""}</li>`;
+    }).join("");
+    const caveats = (setDoc.caveats || []).map((c) => `<li>${c}</li>`).join("");
+    el.innerHTML = `
+      <h3>How ASW is calculated</h3>
+      <p>90% dime + quarter + half = ${conv.asw_90_dime_quarter_half} ozt, consistent with this site’s ${conv.asw_90_per_dollar_face} ozt per $1 face convention. A 40% Kennedy half is ${conv.asw_40_kennedy_half} ozt (11.50 g × 0.40 ÷ 31.1034768). A 40% Ike dollar is ${conv.asw_40_ike} ozt (24.59 g × 0.40). From 2019, Silver Proof dime / quarter / half use U.S. Mint nominal weights 2.537 g, 6.343 g, and 12.685 g at 0.999 fine (dime + five quarters + half = ${conv.asw_999_dime_5q_half} ozt; the 2021 two-quarter set is ${conv.asw_999_dime_2q_half} ozt).</p>
+      <h3>Sources</h3>
+      <ol>${sources}</ol>
+      <h3>Caveats</h3>
+      <ul>${caveats}</ul>`;
+  }
+
+  function renderSets() {
+    const body = $("sets-body");
+    if (!body || !setDoc) return;
+    const yearRaw = $("sets-year")?.value;
+    const year = yearRaw ? Number(yearRaw) : null;
+    const kind = $("sets-kind")?.value || "all";
+    const silverOnly = $("sets-silver-only")?.checked;
+    const spot = metalSpot("XAG");
+    const rows = (setDoc.sets || []).filter((r) => {
+      const hasYear = Number.isFinite(r.year) && r.year > 0;
+      if (year && hasYear && r.year !== year) return false;
+      if (year && !hasYear) return false;
+      if (kind !== "all" && r.kind !== kind) return false;
+      if (silverOnly) {
+        if (r.status === "none") return false;
+        if (r.status === "ok" && !(r.asw > 0)) return false;
+      }
+      return true;
+    });
+    const empty = $("sets-empty");
+    if (empty) empty.hidden = rows.length > 0;
+    body.innerHTML = rows.map((r) => {
+      const yearLabel = r.year ? String(r.year) : "Various";
+      const hl = (year && r.year === year) ? " highlight" : "";
+      let aswCell, meltCell;
+      if (r.status === "varies") {
+        aswCell = "varies";
+        meltCell = "varies";
+      } else if (r.status === "none") {
+        aswCell = "—";
+        meltCell = "—";
+      } else if (r.asw == null) {
+        aswCell = "varies";
+        meltCell = "varies";
+      } else {
+        aswCell = Mojo.formatNum(r.asw, 4);
+        meltCell = spot != null ? Mojo.formatMoney(r.asw * spot) : "—";
+      }
+      const type = KIND_LABEL[r.kind] || r.kind;
+      const note = r.note ? `<div class="row-note">${r.note}</div>` : "";
+      const coins = r.silverCoins ? `<div class="row-coins">${r.silverCoins}</div>` : "";
+      return `<tr class="${r.status}${hl}" data-year="${r.year || ""}">
+        <td class="num">${yearLabel}</td>
+        <td><div class="set-name">${r.name}</div><div class="muted">${type}</div>${note}</td>
+        <td>${coins || "—"}</td>
+        <td class="num">${aswCell}</td>
+        <td class="num">${meltCell}</td>
+      </tr>`;
+    }).join("");
+  }
+
   function bind() {
     ["melt-item", "melt-qty"].forEach((id) => $(id)?.addEventListener("input", renderMelt));
     ["q-90-face", "q-90-wt", "q-karat-g", "q-karat", "q-999-oz", "q-999-metal"].forEach((id) => $(id)?.addEventListener("input", renderQuick));
@@ -151,10 +240,14 @@
       });
     });
     ["s-ask", "s-bid", "s-oz", "s-spot", "s-metal"].forEach((id) => $(id)?.addEventListener("input", renderSpread));
+    ["sets-year", "sets-kind", "sets-silver-only"].forEach((id) => {
+      $(id)?.addEventListener("input", renderSets);
+      $(id)?.addEventListener("change", renderSets);
+    });
   }
 
   function refreshAll() {
-    renderMelt(); renderDash(); renderQuick(); renderPremium(); renderSpread();
+    renderMelt(); renderDash(); renderQuick(); renderPremium(); renderSpread(); renderSets();
   }
 
   window.MojoCalc = { ASW_90, TROY, renderMelt, refreshAll, itemById, meltValue };
@@ -162,6 +255,7 @@
   if (document.getElementById("calc-page")) {
     bind();
     loadMelt().catch((e) => { const n = $("calc-error"); if (n) { n.hidden = false; n.textContent = e.message; } });
+    loadSets();
     MojoPrices.subscribe(refreshAll);
     MojoPrices.start();
   }

@@ -40,7 +40,7 @@
     <section class="hero">
       <div>
         <h1>Live metals and crypto spots</h1>
-        <p class="lede">Gold, silver, platinum, palladium, copper, bitcoin, and ether — last prices from Gold API, with bid/ask and day change from Standard Bullion, plus 24-hour crypto moves from CoinGecko.</p>
+        <p class="lede">Gold, silver, platinum, palladium, copper, bitcoin, and ether — last prices from Gold API, with bid/ask and day change from Standard Bullion, plus 24-hour crypto moves from CoinGecko. Copper’s day change uses the previous daily snapshot stored on this site (the monthly FRED series is a different, lagging global average).</p>
       </div>
       <div class="meta-row">
         <span class="pill" id="market-status"><span class="dot"></span> Checking market…</span>
@@ -81,7 +81,7 @@
   <footer class="site-footer">
     <div class="wrap">
       <p><strong>Indicative prices, not quotes, not financial advice.</strong> Figures can be delayed or wrong. Verify before you trade.</p>
-      <p>Live last prices: <a href="https://gold-api.com">Gold API</a>. Bid/ask, day change, and metals history: <a href="https://standardbullion.com">Data by Standard Bullion</a>. Bitcoin and ether 24-hour change and last-year history: <a href="https://www.coingecko.com">CoinGecko</a>. Longer Bitcoin history: <a href="https://www.blockchain.com">Blockchain.com</a>.</p>
+      <p>Live last prices: <a href="https://gold-api.com">Gold API</a>. Bid/ask, day change, and metals history: <a href="https://standardbullion.com">Data by Standard Bullion</a>. Bitcoin and ether 24-hour change and last-year history: <a href="https://www.coingecko.com">CoinGecko</a>. Longer Bitcoin history: <a href="https://www.blockchain.com">Blockchain.com</a>. CPI-U and monthly copper: <a href="https://fred.stlouisfed.org">FRED</a> series CPIAUCSL and PCOPPUSDM (no API key; copper converted from USD/metric ton to USD/lb).</p>
       <p>Stack Mojo is a free public dashboard. Holdings entered in My Stack stay in this browser only and are never uploaded. There are no dealer prices on this site.</p>
     </div>
   </footer>

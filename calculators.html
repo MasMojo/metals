@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#10120e">
-  <meta name="description" content="Melt calculator, junk and scrap shortcuts, premium/discount and generic spread tools.">
+  <meta name="description" content="Melt calculator, US proof and mint set silver table, junk and scrap shortcuts, premium/discount and generic spread tools.">
   <title>Calculators — Stack Mojo</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="assets/icons/icon-192.png">
@@ -40,12 +40,13 @@
     <section class="hero" id="calc-page">
       <div>
         <h1>Calculators</h1>
-        <p class="lede">Melt values, junk and scrap shortcuts, a premium/discount worksheet, and a generic spread tool. Enter your own buy and sell prices — this site does not list dealers.</p>
+        <p class="lede">Melt values, a year-by-year US proof and mint set silver table, junk and scrap shortcuts, a premium/discount worksheet, and a generic spread tool. Enter your own buy and sell prices — this site does not list dealers.</p>
       </div>
     </section>
     <p id="calc-error" class="notice" hidden></p>
     <div class="tabs" role="tablist">
       <button type="button" data-tab="melt" aria-selected="true">Melt</button>
+      <button type="button" data-tab="sets">Proof / mint sets</button>
       <button type="button" data-tab="dash">Melt dashboard</button>
       <button type="button" data-tab="quick">Quick calcs</button>
       <button type="button" data-tab="prem">Premium / discount</button>
@@ -66,6 +67,41 @@
       </div>
     </section>
 
+
+    <section class="panel card" id="panel-sets" hidden>
+      <h2>US proof and mint set silver</h2>
+      <p class="muted">Actual silver weight (ASW) per official or standard set, and live melt at the silver spot on this page. Figures are melt only, not collector value. Years or products whose silver content is not a single well-documented figure are marked <strong>varies</strong> rather than guessed. A 1980 proof set is clad (no silver). A 1969 mint set contains one 40% Kennedy half (the 1969-D), not two.</p>
+      <div class="sets-toolbar">
+        <label>Year <input id="sets-year" type="number" min="1950" max="2026" placeholder="e.g. 1969 or 1980"></label>
+        <label>Type
+          <select id="sets-kind">
+            <option value="all">All types</option>
+            <option value="proof">Proof sets</option>
+            <option value="silver_proof">Silver Proof sets</option>
+            <option value="sms">Special Mint Sets</option>
+            <option value="mint">Uncirculated mint sets</option>
+            <option value="special">Special / separate products</option>
+          </select>
+        </label>
+        <label class="toggle"><input type="checkbox" id="sets-silver-only"> Hide zero-silver / no-set rows</label>
+      </div>
+      <div class="table-wrap" id="sets-table-wrap">
+        <table class="sets-table" id="sets-table">
+          <thead>
+            <tr>
+              <th>Year</th>
+              <th>Set</th>
+              <th>Silver coins</th>
+              <th class="num">ASW ozt</th>
+              <th class="num">Live melt</th>
+            </tr>
+          </thead>
+          <tbody id="sets-body"></tbody>
+        </table>
+      </div>
+      <p class="muted" id="sets-empty" hidden>No rows match those filters.</p>
+      <div id="sets-footnotes" class="footnotes"></div>
+    </section>
     <section class="panel card" id="panel-dash" hidden>
       <h2>Melt dashboard</h2>
       <p class="muted">One unit of each item at the live spot. $1 face of 90% silver uses 0.7234 ozt ASW.</p>
@@ -172,13 +208,19 @@
       <p class="muted">Breakeven is the spot move per ounce needed for the buy-back to cover what you paid, ignoring shipping and tax.</p>
     </section>
     <script>
+      function openCalcTab(id) {
+        document.querySelectorAll(".tabs [data-tab]").forEach((b) => b.setAttribute("aria-selected", b.dataset.tab === id ? "true" : "false"));
+        document.querySelectorAll("main .panel").forEach((p) => { p.hidden = p.id !== "panel-" + id; });
+      }
       document.querySelectorAll(".tabs [data-tab]").forEach((btn) => {
         btn.addEventListener("click", () => {
-          document.querySelectorAll(".tabs [data-tab]").forEach((b) => b.setAttribute("aria-selected", b === btn ? "true" : "false"));
           const id = btn.dataset.tab;
-          document.querySelectorAll(".panel").forEach((p) => { p.hidden = p.id !== "panel-" + id; });
+          openCalcTab(id);
+          if (id === "sets") history.replaceState(null, "", "#sets");
+          else if (location.hash === "#sets") history.replaceState(null, "", location.pathname + location.search);
         });
       });
+      if (location.hash === "#sets") openCalcTab("sets");
     </script>
 
 </main>
@@ -188,7 +230,7 @@
   <footer class="site-footer">
     <div class="wrap">
       <p><strong>Indicative prices, not quotes, not financial advice.</strong> Figures can be delayed or wrong. Verify before you trade.</p>
-      <p>Live last prices: <a href="https://gold-api.com">Gold API</a>. Bid/ask, day change, and metals history: <a href="https://standardbullion.com">Data by Standard Bullion</a>. Bitcoin and ether 24-hour change and last-year history: <a href="https://www.coingecko.com">CoinGecko</a>. Longer Bitcoin history: <a href="https://www.blockchain.com">Blockchain.com</a>.</p>
+      <p>Live last prices: <a href="https://gold-api.com">Gold API</a>. Bid/ask, day change, and metals history: <a href="https://standardbullion.com">Data by Standard Bullion</a>. Bitcoin and ether 24-hour change and last-year history: <a href="https://www.coingecko.com">CoinGecko</a>. Longer Bitcoin history: <a href="https://www.blockchain.com">Blockchain.com</a>. CPI-U and monthly copper: <a href="https://fred.stlouisfed.org">FRED</a> series CPIAUCSL and PCOPPUSDM (no API key; copper converted from USD/metric ton to USD/lb).</p>
       <p>Stack Mojo is a free public dashboard. Holdings entered in My Stack stay in this browser only and are never uploaded. There are no dealer prices on this site.</p>
     </div>
   </footer>

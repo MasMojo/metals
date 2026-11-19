@@ -6,11 +6,15 @@ No API keys. Public sources only:
   - Standard Bullion history + spot-prices.json (XAU, XAG, XPT, XPD)
     Attribution: Data by Standard Bullion — https://standardbullion.com
   - CoinGecko market_chart for BTC and ETH
+  - FRED public CSV (no key): CPIAUCSL (CPI-U, monthly) and PCOPPUSDM
+    (global copper, USD/metric ton, converted to USD/lb)
 
 Idempotent: a Chicago-calendar run_date is upserted, not duplicated.
 """
 from __future__ import annotations
 
+import csv
+import io
 import json
 import sys
 import time
@@ -33,6 +37,12 @@ CG_PRICE = "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum&v
 # CoinGecko's public API only allows 365 days of history without a key (error 10012).
 # Longer BTC series comes from Blockchain.com's public market-price chart (no key).
 BC_BTC = "https://api.blockchain.info/charts/market-price?timespan=all&format=json&sampled=false"
+
+FRED_CSV = "https://fred.stlouisfed.org/graph/fredgraph.csv?id={sid}"
+# Avoirdupois pounds per metric ton (exactly 1000 / 0.45359237).
+LB_PER_MT = 2204.6226218
+FRED_CPI = "CPIAUCSL"
+FRED_COPPER = "PCOPPUSDM"
 
 ASSETS = [
     {"id": "xau", "symbol": "XAU", "name": "Gold", "unit": "USD per troy ounce", "gold_api": "XAU", "sb": True},
@@ -86,25 +96,43 @@ def save_series(doc: dict) -> None:
     path.write_text(json.dumps(doc, indent=2, sort_keys=False) + "\n")
 
 
+def _normalize_t(t) -> str:
+    if isinstance(t, (int, float)):
+        # CoinGecko ms
+        t = datetime.utcfromtimestamp(t / 1000.0).strftime("%Y-%m-%dT00:00:00Z")
+    t = str(t)
+    if "T" not in t and not t.endswith("Z"):
+        t = t + "T00:00:00Z"
+    if not (t.endswith("Z") or "+" in t[10:]):
+        t = t + "Z"
+    return t
+
+
+def _point_record(p: dict) -> dict:
+    rec = {"t": _normalize_t(p["t"]), "price": float(p["price"])}
+    for k in ("grain", "source", "source_id"):
+        if p.get(k):
+            rec[k] = p[k]
+    return rec
+
+
 def merge_points(existing: list, incoming: list) -> list:
+    """Upsert by timestamp. Preserve grain/source. A daily point wins over monthly on the same instant."""
     by_t = {}
-    for p in existing or []:
-        if p.get("t") is not None and p.get("price") is not None:
-            by_t[str(p["t"])[:19]] = {"t": p["t"], "price": float(p["price"])}
-    for p in incoming or []:
+    for p in list(existing or []) + list(incoming or []):
         if p.get("t") is None or p.get("price") is None:
             continue
-        t = p["t"]
-        if isinstance(t, (int, float)):
-            # CoinGecko ms
-            t = datetime.utcfromtimestamp(t / 1000.0).strftime("%Y-%m-%dT00:00:00Z")
-        t = str(t)
-        if t.endswith("Z") is False and "T" not in t:
-            t = t + "T00:00:00Z"
-        key = t[:19]
-        by_t[key] = {"t": t if t.endswith("Z") or "+" in t else t + "Z", "price": float(p["price"])}
-    points = sorted(by_t.values(), key=lambda p: p["t"])
-    return points
+        rec = _point_record(p)
+        key = rec["t"][:19]
+        prev = by_t.get(key)
+        if prev and prev.get("grain") == "daily" and rec.get("grain") == "monthly":
+            continue
+        if prev:
+            for k in ("grain", "source", "source_id"):
+                if not rec.get(k) and prev.get(k):
+                    rec[k] = prev[k]
+        by_t[key] = rec
+    return sorted(by_t.values(), key=lambda p: p["t"])
 
 
 def backfill_standard_bullion(asset: dict, doc: dict) -> dict:
@@ -212,7 +240,109 @@ def append_today(doc: dict, asset_id: str, snapshot: dict) -> dict:
         return doc
     # Use Chicago calendar date at noon UTC-ish as a daily close proxy.
     t = snapshot["run_date"] + "T00:00:00Z"
-    doc["points"] = merge_points(doc.get("points") or [], [{"t": t, "price": float(price)}])
+    incoming = {"t": t, "price": float(price), "grain": "daily", "source": "Gold API"}
+    doc["points"] = merge_points(doc.get("points") or [], [incoming])
+    return doc
+
+
+
+def get_text(url: str, timeout: int = 60) -> str:
+    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "text/csv,text/plain,*/*"})
+    with urllib.request.urlopen(req, timeout=timeout) as resp:
+        return resp.read().decode("utf-8")
+
+
+def parse_fred_csv(text: str) -> list[tuple[str, float]]:
+    rows = []
+    reader = csv.reader(io.StringIO(text))
+    next(reader, None)
+    for rec in reader:
+        if len(rec) < 2:
+            continue
+        date, val = rec[0].strip(), rec[1].strip()
+        if not date or val in (".", "", "NA"):
+            continue
+        rows.append((date, float(val)))
+    return rows
+
+
+def fetch_fred_series(series_id: str) -> list[tuple[str, float]]:
+    url = FRED_CSV.format(sid=series_id)
+    try:
+        text = get_text(url, timeout=60)
+        rows = parse_fred_csv(text)
+        print(f"  FRED {series_id}: {len(rows)} monthly observations")
+        return rows
+    except Exception as e:
+        print(f"Error fetching FRED {series_id}: {e}", file=sys.stderr)
+        return []
+
+
+def update_cpi() -> dict | None:
+    rows = fetch_fred_series(FRED_CPI)
+    if not rows:
+        existing = load_series("cpi")
+        return existing or None
+    points = [{"t": d + "T00:00:00Z", "price": v, "grain": "monthly", "source": "FRED CPIAUCSL"} for d, v in rows]
+    last_d, last_v = rows[-1]
+    # FRED dates are first of the observation month.
+    last_month = datetime.strptime(last_d, "%Y-%m-%d").strftime("%B %Y")
+    doc = {
+        "id": "cpi",
+        "symbol": "CPIAUCSL",
+        "name": "CPI-U All Items, seasonally adjusted",
+        "unit": "Index, 1982-84=100",
+        "frequency": "monthly",
+        "source": "FRED (U.S. Bureau of Labor Statistics)",
+        "source_id": FRED_CPI,
+        "source_url": "https://fred.stlouisfed.org/series/CPIAUCSL",
+        "attribution": "CPI-U All Items, seasonally adjusted (FRED CPIAUCSL, source: U.S. BLS). Monthly series; the latest observation typically lags by several weeks (BLS usually publishes mid-following month).",
+        "lag_note": f"Monthly CPI. Latest observation in this file is {last_month} ({last_v}). November 2026 and later months appear after BLS/FRED publish them. Later daily asset prices reuse the latest available CPI until a new month arrives.",
+        "latest": {"t": last_d, "value": last_v, "label": last_month},
+        "points": points,
+    }
+    return doc
+
+
+def backfill_fred_copper(doc: dict) -> dict:
+    rows = fetch_fred_series(FRED_COPPER)
+    if not rows:
+        return doc
+    incoming = [
+        {
+            "t": d + "T00:00:00Z",
+            "price": round(v / LB_PER_MT, 6),
+            "grain": "monthly",
+            "source": "FRED PCOPPUSDM",
+            "source_id": FRED_COPPER,
+        }
+        for d, v in rows
+    ]
+    last_d, last_v = rows[-1]
+    last_month = datetime.strptime(last_d, "%Y-%m-%d").strftime("%B %Y")
+    doc["points"] = merge_points(doc.get("points") or [], incoming)
+    for pt in doc["points"]:
+        if not pt.get("grain"):
+            pt["grain"] = "daily"
+            pt.setdefault("source", "Gold API")
+    doc["source"] = "FRED PCOPPUSDM (monthly global) and Gold API (daily snapshots)"
+    doc["source_url"] = "https://fred.stlouisfed.org/series/PCOPPUSDM"
+    doc["conversion"] = f"USD per metric ton / {LB_PER_MT} = USD per avoirdupois pound"
+    doc["attribution"] = (
+        "Monthly copper: FRED PCOPPUSDM (IMF global price, USD per metric ton) converted to USD per pound. "
+        "Daily last prices: Gold API. These are different series — the monthly average is not a daily close and is not used for day change."
+    )
+    doc["frequency_note"] = (
+        f"Points tagged grain=monthly are first-of-month IMF global averages (latest in this file: {last_month}, "
+        f"{last_v} USD/mt ≈ {round(last_v / LB_PER_MT, 4)} USD/lb). Points tagged grain=daily are Gold API last-price snapshots. "
+        "Day-over-day change uses consecutive daily snapshots only."
+    )
+    doc["latest_monthly"] = {
+        "t": last_d,
+        "usd_per_mt": last_v,
+        "usd_per_lb": round(last_v / LB_PER_MT, 6),
+        "label": last_month,
+    }
     return doc
 
 
@@ -232,8 +362,9 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--backfill", action="store_true", help="Pull public history series")
     parser.add_argument("--snapshot", action="store_true", help="Pull live prices and append today's point")
+    parser.add_argument("--fred", action="store_true", help="Refresh FRED CPI-U and monthly copper only (no key)")
     args = parser.parse_args()
-    if not args.backfill and not args.snapshot:
+    if not args.backfill and not args.snapshot and not args.fred:
         args.snapshot = True
 
     HIST.mkdir(parents=True, exist_ok=True)
@@ -257,6 +388,12 @@ def main():
                 doc = backfill_blockchain_btc(doc)
         docs[asset["id"]] = doc
 
+    # FRED series are public CSVs (no key). Refresh on every run so new months appear.
+    print("FRED CPIAUCSL (CPI-U)…")
+    cpi_doc = update_cpi()
+    print("FRED PCOPPUSDM (monthly copper)…")
+    docs["hg"] = backfill_fred_copper(docs["hg"])
+
     snapshot = None
     if args.snapshot:
         print("Live snapshot…")
@@ -265,11 +402,20 @@ def main():
         for asset in ASSETS:
             docs[asset["id"]] = append_today(docs[asset["id"]], asset["id"], snapshot)
 
-    for asset in ASSETS:
-        doc = docs[asset["id"]]
-        doc["updated"] = chicago_now().strftime("%Y-%m-%dT%H:%M:%S%z")
+    now = chicago_now().strftime("%Y-%m-%dT%H:%M:%S%z")
+    write_ids = [a["id"] for a in ASSETS]
+    if args.fred and not args.backfill and not args.snapshot:
+        write_ids = ["hg"]
+    for asset_id in write_ids:
+        doc = docs[asset_id]
+        doc["updated"] = now
         save_series(doc)
-        print(f"Wrote {asset['id']}: {len(doc.get('points') or [])} points")
+        print(f"Wrote {asset_id}: {len(doc.get('points') or [])} points")
+
+    if cpi_doc:
+        cpi_doc["updated"] = now
+        save_series(cpi_doc)
+        print(f"Wrote cpi: {len(cpi_doc.get('points') or [])} points")
 
     print("Done.")
     return 0

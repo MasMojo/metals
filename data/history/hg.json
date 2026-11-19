@@ -5,9 +5,2941 @@
   "unit": "USD per pound",
   "points": [
     {
+      "t": "1992-01-01T00:00:00Z",
+      "price": 0.975487,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1992-02-01T00:00:00Z",
+      "price": 1.001937,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1992-03-01T00:00:00Z",
+      "price": 1.012321,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1992-04-01T00:00:00Z",
+      "price": 1.004329,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1992-05-01T00:00:00Z",
+      "price": 1.006664,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1992-06-01T00:00:00Z",
+      "price": 1.041649,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1992-07-01T00:00:00Z",
+      "price": 1.146357,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1992-08-01T00:00:00Z",
+      "price": 1.140091,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1992-09-01T00:00:00Z",
+      "price": 1.097519,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1992-10-01T00:00:00Z",
+      "price": 1.026233,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1992-11-01T00:00:00Z",
+      "price": 0.980571,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1992-12-01T00:00:00Z",
+      "price": 1.003324,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1993-01-01T00:00:00Z",
+      "price": 1.02703,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1993-02-01T00:00:00Z",
+      "price": 1.003429,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1993-03-01T00:00:00Z",
+      "price": 0.976303,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1993-04-01T00:00:00Z",
+      "price": 0.886147,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1993-05-01T00:00:00Z",
+      "price": 0.816172,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1993-06-01T00:00:00Z",
+      "price": 0.842716,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1993-07-01T00:00:00Z",
+      "price": 0.874227,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1993-08-01T00:00:00Z",
+      "price": 0.884991,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1993-09-01T00:00:00Z",
+      "price": 0.842888,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1993-10-01T00:00:00Z",
+      "price": 0.747067,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1993-11-01T00:00:00Z",
+      "price": 0.74052,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1993-12-01T00:00:00Z",
+      "price": 0.781823,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1994-01-01T00:00:00Z",
+      "price": 0.819674,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1994-02-01T00:00:00Z",
+      "price": 0.845984,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1994-03-01T00:00:00Z",
+      "price": 0.867801,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1994-04-01T00:00:00Z",
+      "price": 0.853374,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1994-05-01T00:00:00Z",
+      "price": 0.972729,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1994-06-01T00:00:00Z",
+      "price": 1.07188,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1994-07-01T00:00:00Z",
+      "price": 1.110048,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1994-08-01T00:00:00Z",
+      "price": 1.093044,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1994-09-01T00:00:00Z",
+      "price": 1.136177,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1994-10-01T00:00:00Z",
+      "price": 1.154857,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1994-11-01T00:00:00Z",
+      "price": 1.271667,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1994-12-01T00:00:00Z",
+      "price": 1.352023,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1995-01-01T00:00:00Z",
+      "price": 1.362257,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1995-02-01T00:00:00Z",
+      "price": 1.302014,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1995-03-01T00:00:00Z",
+      "price": 1.324342,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1995-04-01T00:00:00Z",
+      "price": 1.313099,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1995-05-01T00:00:00Z",
+      "price": 1.257164,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1995-06-01T00:00:00Z",
+      "price": 1.35519,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1995-07-01T00:00:00Z",
+      "price": 1.395454,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1995-08-01T00:00:00Z",
+      "price": 1.378983,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1995-09-01T00:00:00Z",
+      "price": 1.320147,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1995-10-01T00:00:00Z",
+      "price": 1.274625,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1995-11-01T00:00:00Z",
+      "price": 1.35244,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1995-12-01T00:00:00Z",
+      "price": 1.323678,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1996-01-01T00:00:00Z",
+      "price": 1.181608,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1996-02-01T00:00:00Z",
+      "price": 1.154241,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1996-03-01T00:00:00Z",
+      "price": 1.162716,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1996-04-01T00:00:00Z",
+      "price": 1.176698,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1996-05-01T00:00:00Z",
+      "price": 1.205994,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1996-06-01T00:00:00Z",
+      "price": 0.987743,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1996-07-01T00:00:00Z",
+      "price": 0.899898,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1996-08-01T00:00:00Z",
+      "price": 0.915285,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1996-09-01T00:00:00Z",
+      "price": 0.877734,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1996-10-01T00:00:00Z",
+      "price": 0.88913,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1996-11-01T00:00:00Z",
+      "price": 1.004902,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1996-12-01T00:00:00Z",
+      "price": 1.027203,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1997-01-01T00:00:00Z",
+      "price": 1.100992,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1997-02-01T00:00:00Z",
+      "price": 1.09163,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1997-03-01T00:00:00Z",
+      "price": 1.097777,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1997-04-01T00:00:00Z",
+      "price": 1.083776,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1997-05-01T00:00:00Z",
+      "price": 1.140014,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1997-06-01T00:00:00Z",
+      "price": 1.184459,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1997-07-01T00:00:00Z",
+      "price": 1.110936,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1997-08-01T00:00:00Z",
+      "price": 1.020628,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1997-09-01T00:00:00Z",
+      "price": 0.954499,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1997-10-01T00:00:00Z",
+      "price": 0.93018,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1997-11-01T00:00:00Z",
+      "price": 0.870217,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1997-12-01T00:00:00Z",
+      "price": 0.798981,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1998-01-01T00:00:00Z",
+      "price": 0.765482,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1998-02-01T00:00:00Z",
+      "price": 0.754778,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1998-03-01T00:00:00Z",
+      "price": 0.792498,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1998-04-01T00:00:00Z",
+      "price": 0.816523,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1998-05-01T00:00:00Z",
+      "price": 0.785467,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1998-06-01T00:00:00Z",
+      "price": 0.751419,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1998-07-01T00:00:00Z",
+      "price": 0.750998,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1998-08-01T00:00:00Z",
+      "price": 0.734786,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1998-09-01T00:00:00Z",
+      "price": 0.746964,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1998-10-01T00:00:00Z",
+      "price": 0.719171,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1998-11-01T00:00:00Z",
+      "price": 0.71383,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1998-12-01T00:00:00Z",
+      "price": 0.669395,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1999-01-01T00:00:00Z",
+      "price": 0.649544,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1999-02-01T00:00:00Z",
+      "price": 0.640903,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1999-03-01T00:00:00Z",
+      "price": 0.625267,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1999-04-01T00:00:00Z",
+      "price": 0.663934,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1999-05-01T00:00:00Z",
+      "price": 0.685127,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1999-06-01T00:00:00Z",
+      "price": 0.645081,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1999-07-01T00:00:00Z",
+      "price": 0.74352,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1999-08-01T00:00:00Z",
+      "price": 0.746948,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1999-09-01T00:00:00Z",
+      "price": 0.793642,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1999-10-01T00:00:00Z",
+      "price": 0.781669,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1999-11-01T00:00:00Z",
+      "price": 0.783251,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "1999-12-01T00:00:00Z",
+      "price": 0.800537,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2000-01-01T00:00:00Z",
+      "price": 0.836356,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2000-02-01T00:00:00Z",
+      "price": 0.819653,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2000-03-01T00:00:00Z",
+      "price": 0.78916,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2000-04-01T00:00:00Z",
+      "price": 0.7629,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2000-05-01T00:00:00Z",
+      "price": 0.809707,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2000-06-01T00:00:00Z",
+      "price": 0.794727,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2000-07-01T00:00:00Z",
+      "price": 0.817892,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2000-08-01T00:00:00Z",
+      "price": 0.842377,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2000-09-01T00:00:00Z",
+      "price": 0.8899,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2000-10-01T00:00:00Z",
+      "price": 0.859273,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2000-11-01T00:00:00Z",
+      "price": 0.814471,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2000-12-01T00:00:00Z",
+      "price": 0.840235,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2001-01-01T00:00:00Z",
+      "price": 0.810595,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2001-02-01T00:00:00Z",
+      "price": 0.801101,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2001-03-01T00:00:00Z",
+      "price": 0.79023,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2001-04-01T00:00:00Z",
+      "price": 0.755672,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2001-05-01T00:00:00Z",
+      "price": 0.764235,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2001-06-01T00:00:00Z",
+      "price": 0.730496,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2001-07-01T00:00:00Z",
+      "price": 0.692531,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2001-08-01T00:00:00Z",
+      "price": 0.665153,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2001-09-01T00:00:00Z",
+      "price": 0.647593,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2001-10-01T00:00:00Z",
+      "price": 0.624767,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2001-11-01T00:00:00Z",
+      "price": 0.650584,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2001-12-01T00:00:00Z",
+      "price": 0.668072,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2002-01-01T00:00:00Z",
+      "price": 0.68412,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2002-02-01T00:00:00Z",
+      "price": 0.708224,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2002-03-01T00:00:00Z",
+      "price": 0.729101,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2002-04-01T00:00:00Z",
+      "price": 0.720564,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2002-05-01T00:00:00Z",
+      "price": 0.724397,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2002-06-01T00:00:00Z",
+      "price": 0.748697,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2002-07-01T00:00:00Z",
+      "price": 0.720434,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2002-08-01T00:00:00Z",
+      "price": 0.67264,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2002-09-01T00:00:00Z",
+      "price": 0.670833,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2002-10-01T00:00:00Z",
+      "price": 0.674116,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2002-11-01T00:00:00Z",
+      "price": 0.717146,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2002-12-01T00:00:00Z",
+      "price": 0.722556,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2003-01-01T00:00:00Z",
+      "price": 0.748569,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2003-02-01T00:00:00Z",
+      "price": 0.763008,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2003-03-01T00:00:00Z",
+      "price": 0.75101,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2003-04-01T00:00:00Z",
+      "price": 0.720245,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2003-05-01T00:00:00Z",
+      "price": 0.748926,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2003-06-01T00:00:00Z",
+      "price": 0.764352,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2003-07-01T00:00:00Z",
+      "price": 0.776925,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2003-08-01T00:00:00Z",
+      "price": 0.796837,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2003-09-01T00:00:00Z",
+      "price": 0.811781,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2003-10-01T00:00:00Z",
+      "price": 0.87343,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2003-11-01T00:00:00Z",
+      "price": 0.93135,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2003-12-01T00:00:00Z",
+      "price": 0.998827,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2004-01-01T00:00:00Z",
+      "price": 1.098363,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2004-02-01T00:00:00Z",
+      "price": 1.248158,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2004-03-01T00:00:00Z",
+      "price": 1.360905,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2004-04-01T00:00:00Z",
+      "price": 1.327654,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2004-05-01T00:00:00Z",
+      "price": 1.237609,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2004-06-01T00:00:00Z",
+      "price": 1.219731,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2004-07-01T00:00:00Z",
+      "price": 1.277677,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2004-08-01T00:00:00Z",
+      "price": 1.290108,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2004-09-01T00:00:00Z",
+      "price": 1.316856,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2004-10-01T00:00:00Z",
+      "price": 1.365043,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2004-11-01T00:00:00Z",
+      "price": 1.419884,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2004-12-01T00:00:00Z",
+      "price": 1.424183,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2005-01-01T00:00:00Z",
+      "price": 1.437026,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2005-02-01T00:00:00Z",
+      "price": 1.47286,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2005-03-01T00:00:00Z",
+      "price": 1.532645,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2005-04-01T00:00:00Z",
+      "price": 1.537592,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2005-05-01T00:00:00Z",
+      "price": 1.470501,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2005-06-01T00:00:00Z",
+      "price": 1.601057,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2005-07-01T00:00:00Z",
+      "price": 1.636777,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2005-08-01T00:00:00Z",
+      "price": 1.719981,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2005-09-01T00:00:00Z",
+      "price": 1.74663,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2005-10-01T00:00:00Z",
+      "price": 1.839846,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2005-11-01T00:00:00Z",
+      "price": 1.94054,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2005-12-01T00:00:00Z",
+      "price": 2.076104,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2006-01-01T00:00:00Z",
+      "price": 2.151777,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2006-02-01T00:00:00Z",
+      "price": 2.256611,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2006-03-01T00:00:00Z",
+      "price": 2.324059,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2006-04-01T00:00:00Z",
+      "price": 2.905007,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2006-05-01T00:00:00Z",
+      "price": 3.655587,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2006-06-01T00:00:00Z",
+      "price": 3.276195,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2006-07-01T00:00:00Z",
+      "price": 3.504789,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2006-08-01T00:00:00Z",
+      "price": 3.488239,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2006-09-01T00:00:00Z",
+      "price": 3.457573,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2006-10-01T00:00:00Z",
+      "price": 3.400768,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2006-11-01T00:00:00Z",
+      "price": 3.188435,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2006-12-01T00:00:00Z",
+      "price": 3.030439,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2007-01-01T00:00:00Z",
+      "price": 2.580642,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2007-02-01T00:00:00Z",
+      "price": 2.593709,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2007-03-01T00:00:00Z",
+      "price": 2.932609,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2007-04-01T00:00:00Z",
+      "price": 3.516857,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2007-05-01T00:00:00Z",
+      "price": 3.482661,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2007-06-01T00:00:00Z",
+      "price": 3.408401,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2007-07-01T00:00:00Z",
+      "price": 3.62009,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2007-08-01T00:00:00Z",
+      "price": 3.402036,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2007-09-01T00:00:00Z",
+      "price": 3.479666,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2007-10-01T00:00:00Z",
+      "price": 3.638077,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2007-11-01T00:00:00Z",
+      "price": 3.155838,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2007-12-01T00:00:00Z",
+      "price": 3.007651,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2008-01-01T00:00:00Z",
+      "price": 3.210939,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2008-02-01T00:00:00Z",
+      "price": 3.602042,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2008-03-01T00:00:00Z",
+      "price": 3.825741,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2008-04-01T00:00:00Z",
+      "price": 3.952686,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2008-05-01T00:00:00Z",
+      "price": 3.790275,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2008-06-01T00:00:00Z",
+      "price": 3.761188,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2008-07-01T00:00:00Z",
+      "price": 3.813361,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2008-08-01T00:00:00Z",
+      "price": 3.462633,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2008-09-01T00:00:00Z",
+      "price": 3.163858,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2008-10-01T00:00:00Z",
+      "price": 2.220285,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2008-11-01T00:00:00Z",
+      "price": 1.691531,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2008-12-01T00:00:00Z",
+      "price": 1.408448,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2009-01-01T00:00:00Z",
+      "price": 1.478873,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2009-02-01T00:00:00Z",
+      "price": 1.509743,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2009-03-01T00:00:00Z",
+      "price": 1.71044,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2009-04-01T00:00:00Z",
+      "price": 2.012555,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2009-05-01T00:00:00Z",
+      "price": 2.082651,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2009-06-01T00:00:00Z",
+      "price": 2.274962,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2009-07-01T00:00:00Z",
+      "price": 2.371568,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2009-08-01T00:00:00Z",
+      "price": 2.801783,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2009-09-01T00:00:00Z",
+      "price": 2.810345,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2009-10-01T00:00:00Z",
+      "price": 2.860348,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2009-11-01T00:00:00Z",
+      "price": 3.031104,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2009-12-01T00:00:00Z",
+      "price": 3.164703,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2010-01-01T00:00:00Z",
+      "price": 3.341785,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2010-02-01T00:00:00Z",
+      "price": 3.115125,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2010-03-01T00:00:00Z",
+      "price": 3.386945,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2010-04-01T00:00:00Z",
+      "price": 3.506195,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2010-05-01T00:00:00Z",
+      "price": 3.104004,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2010-06-01T00:00:00Z",
+      "price": 2.949031,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2010-07-01T00:00:00Z",
+      "price": 3.062006,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2010-08-01T00:00:00Z",
+      "price": 3.312434,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2010-09-01T00:00:00Z",
+      "price": 3.506083,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2010-10-01T00:00:00Z",
+      "price": 3.760173,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2010-11-01T00:00:00Z",
+      "price": 3.836675,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2010-12-01T00:00:00Z",
+      "price": 4.151666,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2011-01-01T00:00:00Z",
+      "price": 4.324187,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2011-02-01T00:00:00Z",
+      "price": 4.481918,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2011-03-01T00:00:00Z",
+      "price": 4.310651,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2011-04-01T00:00:00Z",
+      "price": 4.301303,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2011-05-01T00:00:00Z",
+      "price": 4.05134,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2011-06-01T00:00:00Z",
+      "price": 4.112655,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2011-07-01T00:00:00Z",
+      "price": 4.377377,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2011-08-01T00:00:00Z",
+      "price": 4.081419,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2011-09-01T00:00:00Z",
+      "price": 3.764879,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2011-10-01T00:00:00Z",
+      "price": 3.353948,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2011-11-01T00:00:00Z",
+      "price": 3.438694,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2011-12-01T00:00:00Z",
+      "price": 3.428648,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2012-01-01T00:00:00Z",
+      "price": 3.656824,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2012-02-01T00:00:00Z",
+      "price": 3.828995,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2012-03-01T00:00:00Z",
+      "price": 3.842283,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2012-04-01T00:00:00Z",
+      "price": 3.758252,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2012-05-01T00:00:00Z",
+      "price": 3.581978,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2012-06-01T00:00:00Z",
+      "price": 3.369415,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2012-07-01T00:00:00Z",
+      "price": 3.440163,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2012-08-01T00:00:00Z",
+      "price": 3.406675,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2012-09-01T00:00:00Z",
+      "price": 3.668538,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2012-10-01T00:00:00Z",
+      "price": 3.656876,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2012-11-01T00:00:00Z",
+      "price": 3.497754,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2012-12-01T00:00:00Z",
+      "price": 3.613538,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2013-01-01T00:00:00Z",
+      "price": 3.653114,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2013-02-01T00:00:00Z",
+      "price": 3.656374,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2013-03-01T00:00:00Z",
+      "price": 3.471059,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2013-04-01T00:00:00Z",
+      "price": 3.275464,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2013-05-01T00:00:00Z",
+      "price": 3.287961,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2013-06-01T00:00:00Z",
+      "price": 3.175254,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2013-07-01T00:00:00Z",
+      "price": 3.1328,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2013-08-01T00:00:00Z",
+      "price": 3.259628,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2013-09-01T00:00:00Z",
+      "price": 3.24739,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2013-10-01T00:00:00Z",
+      "price": 3.267236,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2013-11-01T00:00:00Z",
+      "price": 3.207195,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2013-12-01T00:00:00Z",
+      "price": 3.272624,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2014-01-01T00:00:00Z",
+      "price": 3.307353,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2014-02-01T00:00:00Z",
+      "price": 3.242828,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2014-03-01T00:00:00Z",
+      "price": 3.016405,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2014-04-01T00:00:00Z",
+      "price": 3.027077,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2014-05-01T00:00:00Z",
+      "price": 3.125762,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2014-06-01T00:00:00Z",
+      "price": 3.094018,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2014-07-01T00:00:00Z",
+      "price": 3.226575,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2014-08-01T00:00:00Z",
+      "price": 3.17598,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2014-09-01T00:00:00Z",
+      "price": 3.117185,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2014-10-01T00:00:00Z",
+      "price": 3.056069,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2014-11-01T00:00:00Z",
+      "price": 3.044898,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2014-12-01T00:00:00Z",
+      "price": 2.924062,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2015-01-01T00:00:00Z",
+      "price": 2.644687,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2015-02-01T00:00:00Z",
+      "price": 2.598755,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2015-03-01T00:00:00Z",
+      "price": 2.694189,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2015-04-01T00:00:00Z",
+      "price": 2.740645,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2015-05-01T00:00:00Z",
+      "price": 2.855263,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2015-06-01T00:00:00Z",
+      "price": 2.645809,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2015-07-01T00:00:00Z",
+      "price": 2.47514,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2015-08-01T00:00:00Z",
+      "price": 2.325704,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2015-09-01T00:00:00Z",
+      "price": 2.366505,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2015-10-01T00:00:00Z",
+      "price": 2.365979,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2015-11-01T00:00:00Z",
+      "price": 2.1772,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2015-12-01T00:00:00Z",
+      "price": 2.104139,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2016-01-01T00:00:00Z",
+      "price": 2.028369,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2016-02-01T00:00:00Z",
+      "price": 2.085899,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2016-03-01T00:00:00Z",
+      "price": 2.247005,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2016-04-01T00:00:00Z",
+      "price": 2.210237,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2016-05-01T00:00:00Z",
+      "price": 2.129406,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2016-06-01T00:00:00Z",
+      "price": 2.10556,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2016-07-01T00:00:00Z",
+      "price": 2.206684,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2016-08-01T00:00:00Z",
+      "price": 2.155321,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2016-09-01T00:00:00Z",
+      "price": 2.141956,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2016-10-01T00:00:00Z",
+      "price": 2.146064,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2016-11-01T00:00:00Z",
+      "price": 2.472501,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2016-12-01T00:00:00Z",
+      "price": 2.567492,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2017-01-01T00:00:00Z",
+      "price": 2.610224,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2017-02-01T00:00:00Z",
+      "price": 2.694753,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2017-03-01T00:00:00Z",
+      "price": 2.642008,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2017-04-01T00:00:00Z",
+      "price": 2.578175,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2017-05-01T00:00:00Z",
+      "price": 2.539917,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2017-06-01T00:00:00Z",
+      "price": 2.59444,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2017-07-01T00:00:00Z",
+      "price": 2.714804,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2017-08-01T00:00:00Z",
+      "price": 2.94183,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2017-09-01T00:00:00Z",
+      "price": 2.983353,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2017-10-01T00:00:00Z",
+      "price": 3.087876,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2017-11-01T00:00:00Z",
+      "price": 3.096469,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2017-12-01T00:00:00Z",
+      "price": 3.099803,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2018-01-01T00:00:00Z",
+      "price": 3.205017,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2018-02-01T00:00:00Z",
+      "price": 3.178106,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2018-03-01T00:00:00Z",
+      "price": 3.084056,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2018-04-01T00:00:00Z",
+      "price": 3.107794,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2018-05-01T00:00:00Z",
+      "price": 3.095892,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2018-06-01T00:00:00Z",
+      "price": 3.15966,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2018-07-01T00:00:00Z",
+      "price": 2.835293,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2018-08-01T00:00:00Z",
+      "price": 2.744708,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2018-09-01T00:00:00Z",
+      "price": 2.74458,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2018-10-01T00:00:00Z",
+      "price": 2.821157,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2018-11-01T00:00:00Z",
+      "price": 2.810422,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2018-12-01T00:00:00Z",
+      "price": 2.755717,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2019-01-01T00:00:00Z",
+      "price": 2.693931,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2019-02-01T00:00:00Z",
+      "price": 2.857853,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2019-03-01T00:00:00Z",
+      "price": 2.920892,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2019-04-01T00:00:00Z",
+      "price": 2.920392,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2019-05-01T00:00:00Z",
+      "price": 2.729676,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2019-06-01T00:00:00Z",
+      "price": 2.668132,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2019-07-01T00:00:00Z",
+      "price": 2.694881,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2019-08-01T00:00:00Z",
+      "price": 2.589759,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2019-09-01T00:00:00Z",
+      "price": 2.612352,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2019-10-01T00:00:00Z",
+      "price": 2.611466,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2019-11-01T00:00:00Z",
+      "price": 2.65803,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2019-12-01T00:00:00Z",
+      "price": 2.756509,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2020-01-01T00:00:00Z",
+      "price": 2.73571,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2020-02-01T00:00:00Z",
+      "price": 2.57992,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2020-03-01T00:00:00Z",
+      "price": 2.350802,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2020-04-01T00:00:00Z",
+      "price": 2.294258,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2020-05-01T00:00:00Z",
+      "price": 2.376745,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2020-06-01T00:00:00Z",
+      "price": 2.610241,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2020-07-01T00:00:00Z",
+      "price": 2.8905,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2020-08-01T00:00:00Z",
+      "price": 2.952157,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2020-09-01T00:00:00Z",
+      "price": 3.041291,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2020-10-01T00:00:00Z",
+      "price": 3.045334,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2020-11-01T00:00:00Z",
+      "price": 3.206402,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2020-12-01T00:00:00Z",
+      "price": 3.525428,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2021-01-01T00:00:00Z",
+      "price": 3.616105,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2021-02-01T00:00:00Z",
+      "price": 3.842354,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2021-03-01T00:00:00Z",
+      "price": 4.077001,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2021-04-01T00:00:00Z",
+      "price": 4.229666,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2021-05-01T00:00:00Z",
+      "price": 4.611349,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2021-06-01T00:00:00Z",
+      "price": 4.368775,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2021-07-01T00:00:00Z",
+      "price": 4.28682,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2021-08-01T00:00:00Z",
+      "price": 4.250223,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2021-09-01T00:00:00Z",
+      "price": 4.229617,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2021-10-01T00:00:00Z",
+      "price": 4.458459,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2021-11-01T00:00:00Z",
+      "price": 4.412957,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2021-12-01T00:00:00Z",
+      "price": 4.332342,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2022-01-01T00:00:00Z",
+      "price": 4.437194,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2022-02-01T00:00:00Z",
+      "price": 4.510148,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2022-03-01T00:00:00Z",
+      "price": 4.640655,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2022-04-01T00:00:00Z",
+      "price": 4.615006,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2022-05-01T00:00:00Z",
+      "price": 4.261513,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2022-06-01T00:00:00Z",
+      "price": 4.112972,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2022-07-01T00:00:00Z",
+      "price": 3.422268,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2022-08-01T00:00:00Z",
+      "price": 3.624571,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2022-09-01T00:00:00Z",
+      "price": 3.513532,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2022-10-01T00:00:00Z",
+      "price": 3.470473,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2022-11-01T00:00:00Z",
+      "price": 3.651356,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2022-12-01T00:00:00Z",
+      "price": 3.797063,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2023-01-01T00:00:00Z",
+      "price": 4.085664,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2023-02-01T00:00:00Z",
+      "price": 4.053568,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2023-03-01T00:00:00Z",
+      "price": 4.017155,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2023-04-01T00:00:00Z",
+      "price": 3.995767,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2023-05-01T00:00:00Z",
+      "price": 3.739033,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2023-06-01T00:00:00Z",
+      "price": 3.808596,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2023-07-01T00:00:00Z",
+      "price": 3.844957,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2023-08-01T00:00:00Z",
+      "price": 3.786511,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2023-09-01T00:00:00Z",
+      "price": 3.754254,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2023-10-01T00:00:00Z",
+      "price": 3.602138,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2023-11-01T00:00:00Z",
+      "price": 3.714735,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2023-12-01T00:00:00Z",
+      "price": 3.81376,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2024-01-01T00:00:00Z",
+      "price": 3.788104,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2024-02-01T00:00:00Z",
+      "price": 3.767062,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2024-03-01T00:00:00Z",
+      "price": 3.942996,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2024-04-01T00:00:00Z",
+      "price": 4.284449,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2024-05-01T00:00:00Z",
+      "price": 4.589068,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2024-06-01T00:00:00Z",
+      "price": 4.376335,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2024-07-01T00:00:00Z",
+      "price": 4.257106,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2024-08-01T00:00:00Z",
+      "price": 4.073766,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2024-09-01T00:00:00Z",
+      "price": 4.19987,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2024-10-01T00:00:00Z",
+      "price": 4.324546,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2024-11-01T00:00:00Z",
+      "price": 4.116681,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2024-12-01T00:00:00Z",
+      "price": 4.041466,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2025-01-01T00:00:00Z",
+      "price": 4.071754,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2025-02-01T00:00:00Z",
+      "price": 4.232459,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2025-03-01T00:00:00Z",
+      "price": 4.416095,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2025-04-01T00:00:00Z",
+      "price": 4.160665,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2025-05-01T00:00:00Z",
+      "price": 4.32328,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2025-06-01T00:00:00Z",
+      "price": 4.461112,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2025-07-01T00:00:00Z",
+      "price": 4.431861,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2025-08-01T00:00:00Z",
+      "price": 4.387089,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2025-09-01T00:00:00Z",
+      "price": 4.533553,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2025-10-01T00:00:00Z",
+      "price": 4.871545,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2025-11-01T00:00:00Z",
+      "price": 4.904253,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2025-12-01T00:00:00Z",
+      "price": 5.348291,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2026-01-01T00:00:00Z",
+      "price": 5.890626,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2026-02-01T00:00:00Z",
+      "price": 5.874631,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2026-03-01T00:00:00Z",
+      "price": 5.682927,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2026-04-01T00:00:00Z",
+      "price": 5.847118,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2026-05-01T00:00:00Z",
+      "price": 6.129011,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2026-06-01T00:00:00Z",
+      "price": 6.147102,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2026-07-01T00:00:00Z",
+      "price": 6.14292,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2026-08-01T00:00:00Z",
+      "price": 6.500552,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
+      "t": "2026-09-01T00:00:00Z",
+      "price": 6.564868,
+      "grain": "monthly",
+      "source": "FRED PCOPPUSDM",
+      "source_id": "PCOPPUSDM"
+    },
+    {
       "t": "2026-11-18T00:00:00Z",
-      "price": 5.756011
+      "price": 5.756011,
+      "grain": "daily",
+      "source": "Gold API"
     }
   ],
-  "updated": "2026-11-18T20:49:24-0600"
+  "updated": "2026-11-18T21:46:17-0600",
+  "source": "FRED PCOPPUSDM (monthly global) and Gold API (daily snapshots)",
+  "source_url": "https://fred.stlouisfed.org/series/PCOPPUSDM",
+  "conversion": "USD per metric ton / 2204.6226218 = USD per avoirdupois pound",
+  "attribution": "Monthly copper: FRED PCOPPUSDM (IMF global price, USD per metric ton) converted to USD per pound. Daily last prices: Gold API. These are different series \u2014 the monthly average is not a daily close and is not used for day change.",
+  "frequency_note": "Points tagged grain=monthly are first-of-month IMF global averages (latest in this file: September 2026, 14473.05590909091 USD/mt \u2248 6.5649 USD/lb). Points tagged grain=daily are Gold API last-price snapshots. Day-over-day change uses consecutive daily snapshots only.",
+  "latest_monthly": {
+    "t": "2026-09-01",
+    "usd_per_mt": 14473.05590909091,
+    "usd_per_lb": 6.564868,
+    "label": "September 2026"
+  }
 }

@@ -1,0 +1,2098 @@
+{
+  "title": "US proof, SMS, mint, and silver proof sets \u2014 silver content",
+  "unit": "troy ounces ASW (actual silver weight) per set or coin as named",
+  "conventions": {
+    "troy_grams": 31.1034768,
+    "asw_90_dime_quarter_half": 0.6149,
+    "asw_90_per_dollar_face": 0.7234,
+    "asw_40_kennedy_half": 0.1479,
+    "asw_40_ike": 0.3162,
+    "asw_40_bicentennial_3pc": 0.5381,
+    "asw_999_dime_5q_half": 1.5076,
+    "asw_999_dime_2q_half": 0.8964,
+    "mint_2019_weights_grams": {
+      "dime": 2.537,
+      "quarter": 6.343,
+      "half": 12.685,
+      "fineness": 0.999
+    },
+    "note": "90% set ASW uses standard 90% coin weights (dime 2.50 g, quarter 6.25 g, half 12.50 g at 90% fine), consistent with the site\u2019s 0.7234 ozt per $1 face convention. 40% Kennedy half uses 11.50 g at 40%. 2019+ Silver Proof ASW uses U.S. Mint nominal weights at 0.999 fine."
+  },
+  "sources": [
+    {
+      "name": "United States Mint",
+      "url": "https://www.usmint.gov/",
+      "what": "Official Silver Proof Set specifications from 2019: dime 2.537 g, quarter 6.343 g, half dollar 12.685 g, 99.9% silver; annual set product pages (including the 2026 Silver Proof Set)."
+    },
+    {
+      "name": "PCGS",
+      "url": "https://www.pcgs.com/",
+      "what": "Mint-set and proof-set composition, including 1968\u20131970 mint sets (single Denver 40% Kennedy half) and the 1970-D half as a mint-set-only issue; 40% Kennedy specifications."
+    },
+    {
+      "name": "CoinWorld",
+      "url": "https://www.coinworld.com/",
+      "what": "Reporting that 2019+ Silver Proof catalog wording about a lower specification-limit weight did not mean the Mint reduced silver content; official nominal weights still apply."
+    },
+    {
+      "name": "CoinNews / CoinWeek-type references",
+      "url": "https://www.coinnews.net/",
+      "what": "Year-by-year set contents used as a check, including the 2021 Silver Proof Set (two quarters) and published 2026 Silver Proof Set quarter count."
+    },
+    {
+      "name": "Mint Set Guide / Proof Set Guide",
+      "url": "https://mintsetguide.com/",
+      "what": "Secondary check of coins included in annual mint and proof sets (for example 1968\u20131970 10-coin mint sets with a single half dollar)."
+    }
+  ],
+  "caveats": [
+    "Figures are melt (ASW \u00d7 live silver spot), not collector value or what a dealer will pay.",
+    "Years or products marked \u201cvaries\u201d are left blank rather than guessed (1947\u20131958 double mint sets; Limited Edition Silver Proof Sets that add a Silver Eagle; packaging variants).",
+    "Regular proof sets for 1971\u2013present, including 1980, are clad and have no silver. Silver Proof sets are a separate product starting in 1992.",
+    "1968\u20131970 mint sets contain one 40% Kennedy half (the Denver coin), not two. The 1969 mint set is 0.1479 ozt, not a pair of halves.",
+    "2012 Silver Proof Set uses the same 90% dime + five quarters + half makeup as other 2010\u20132018 sets (ASW 1.3383 ozt).",
+    "CPI and copper on the charts page are separate from this table."
+  ],
+  "sets": [
+    {
+      "year": 1950,
+      "kind": "proof",
+      "name": "1950 Proof Set",
+      "asw": 0.6149,
+      "status": "ok",
+      "silverCoins": "90% dime, quarter, and half ($0.85 face). Cent and nickel are not silver.",
+      "note": "Standard 5-coin proof set. Last 90% circulating-type proof set is 1964.",
+      "fineness": 0.9
+    },
+    {
+      "year": 1950,
+      "kind": "mint",
+      "name": "1950 Uncirculated Mint Set (double set)",
+      "asw": null,
+      "status": "varies",
+      "silverCoins": "90% dimes, quarters, and halves from each mint that struck them, typically two of each coin (double set packaging).",
+      "note": "1947\u20131958 uncirculated sets were double sets: two of each coin from each issuing mint, so silver content depends on which mints struck dimes, quarters, and halves that year. Marked varies rather than assuming a single ASW.",
+      "fineness": null
+    },
+    {
+      "year": 1951,
+      "kind": "proof",
+      "name": "1951 Proof Set",
+      "asw": 0.6149,
+      "status": "ok",
+      "silverCoins": "90% dime, quarter, and half ($0.85 face). Cent and nickel are not silver.",
+      "note": "Standard 5-coin proof set. Last 90% circulating-type proof set is 1964.",
+      "fineness": 0.9
+    },
+    {
+      "year": 1951,
+      "kind": "mint",
+      "name": "1951 Uncirculated Mint Set (double set)",
+      "asw": null,
+      "status": "varies",
+      "silverCoins": "90% dimes, quarters, and halves from each mint that struck them, typically two of each coin (double set packaging).",
+      "note": "1947\u20131958 uncirculated sets were double sets: two of each coin from each issuing mint, so silver content depends on which mints struck dimes, quarters, and halves that year. Marked varies rather than assuming a single ASW.",
+      "fineness": null
+    },
+    {
+      "year": 1952,
+      "kind": "proof",
+      "name": "1952 Proof Set",
+      "asw": 0.6149,
+      "status": "ok",
+      "silverCoins": "90% dime, quarter, and half ($0.85 face). Cent and nickel are not silver.",
+      "note": "Standard 5-coin proof set. Last 90% circulating-type proof set is 1964.",
+      "fineness": 0.9
+    },
+    {
+      "year": 1952,
+      "kind": "mint",
+      "name": "1952 Uncirculated Mint Set (double set)",
+      "asw": null,
+      "status": "varies",
+      "silverCoins": "90% dimes, quarters, and halves from each mint that struck them, typically two of each coin (double set packaging).",
+      "note": "1947\u20131958 uncirculated sets were double sets: two of each coin from each issuing mint, so silver content depends on which mints struck dimes, quarters, and halves that year. Marked varies rather than assuming a single ASW.",
+      "fineness": null
+    },
+    {
+      "year": 1953,
+      "kind": "proof",
+      "name": "1953 Proof Set",
+      "asw": 0.6149,
+      "status": "ok",
+      "silverCoins": "90% dime, quarter, and half ($0.85 face). Cent and nickel are not silver.",
+      "note": "Standard 5-coin proof set. Last 90% circulating-type proof set is 1964.",
+      "fineness": 0.9
+    },
+    {
+      "year": 1953,
+      "kind": "mint",
+      "name": "1953 Uncirculated Mint Set (double set)",
+      "asw": null,
+      "status": "varies",
+      "silverCoins": "90% dimes, quarters, and halves from each mint that struck them, typically two of each coin (double set packaging).",
+      "note": "1947\u20131958 uncirculated sets were double sets: two of each coin from each issuing mint, so silver content depends on which mints struck dimes, quarters, and halves that year. Marked varies rather than assuming a single ASW.",
+      "fineness": null
+    },
+    {
+      "year": 1954,
+      "kind": "proof",
+      "name": "1954 Proof Set",
+      "asw": 0.6149,
+      "status": "ok",
+      "silverCoins": "90% dime, quarter, and half ($0.85 face). Cent and nickel are not silver.",
+      "note": "Standard 5-coin proof set. Last 90% circulating-type proof set is 1964.",
+      "fineness": 0.9
+    },
+    {
+      "year": 1954,
+      "kind": "mint",
+      "name": "1954 Uncirculated Mint Set (double set)",
+      "asw": null,
+      "status": "varies",
+      "silverCoins": "90% dimes, quarters, and halves from each mint that struck them, typically two of each coin (double set packaging).",
+      "note": "1947\u20131958 uncirculated sets were double sets: two of each coin from each issuing mint, so silver content depends on which mints struck dimes, quarters, and halves that year. Marked varies rather than assuming a single ASW.",
+      "fineness": null
+    },
+    {
+      "year": 1955,
+      "kind": "proof",
+      "name": "1955 Proof Set",
+      "asw": 0.6149,
+      "status": "ok",
+      "silverCoins": "90% dime, quarter, and half ($0.85 face). Cent and nickel are not silver.",
+      "note": "Standard 5-coin proof set. Last 90% circulating-type proof set is 1964.",
+      "fineness": 0.9
+    },
+    {
+      "year": 1955,
+      "kind": "mint",
+      "name": "1955 Uncirculated Mint Set (double set)",
+      "asw": null,
+      "status": "varies",
+      "silverCoins": "90% dimes, quarters, and halves from each mint that struck them, typically two of each coin (double set packaging).",
+      "note": "1947\u20131958 uncirculated sets were double sets: two of each coin from each issuing mint, so silver content depends on which mints struck dimes, quarters, and halves that year. Marked varies rather than assuming a single ASW.",
+      "fineness": null
+    },
+    {
+      "year": 1956,
+      "kind": "proof",
+      "name": "1956 Proof Set",
+      "asw": 0.6149,
+      "status": "ok",
+      "silverCoins": "90% dime, quarter, and half ($0.85 face). Cent and nickel are not silver.",
+      "note": "Standard 5-coin proof set. Last 90% circulating-type proof set is 1964.",
+      "fineness": 0.9
+    },
+    {
+      "year": 1956,
+      "kind": "mint",
+      "name": "1956 Uncirculated Mint Set (double set)",
+      "asw": null,
+      "status": "varies",
+      "silverCoins": "90% dimes, quarters, and halves from each mint that struck them, typically two of each coin (double set packaging).",
+      "note": "1947\u20131958 uncirculated sets were double sets: two of each coin from each issuing mint, so silver content depends on which mints struck dimes, quarters, and halves that year. Marked varies rather than assuming a single ASW.",
+      "fineness": null
+    },
+    {
+      "year": 1957,
+      "kind": "proof",
+      "name": "1957 Proof Set",
+      "asw": 0.6149,
+      "status": "ok",
+      "silverCoins": "90% dime, quarter, and half ($0.85 face). Cent and nickel are not silver.",
+      "note": "Standard 5-coin proof set. Last 90% circulating-type proof set is 1964.",
+      "fineness": 0.9
+    },
+    {
+      "year": 1957,
+      "kind": "mint",
+      "name": "1957 Uncirculated Mint Set (double set)",
+      "asw": null,
+      "status": "varies",
+      "silverCoins": "90% dimes, quarters, and halves from each mint that struck them, typically two of each coin (double set packaging).",
+      "note": "1947\u20131958 uncirculated sets were double sets: two of each coin from each issuing mint, so silver content depends on which mints struck dimes, quarters, and halves that year. Marked varies rather than assuming a single ASW.",
+      "fineness": null
+    },
+    {
+      "year": 1958,
+      "kind": "proof",
+      "name": "1958 Proof Set",
+      "asw": 0.6149,
+      "status": "ok",
+      "silverCoins": "90% dime, quarter, and half ($0.85 face). Cent and nickel are not silver.",
+      "note": "Standard 5-coin proof set. Last 90% circulating-type proof set is 1964.",
+      "fineness": 0.9
+    },
+    {
+      "year": 1958,
+      "kind": "mint",
+      "name": "1958 Uncirculated Mint Set (double set)",
+      "asw": null,
+      "status": "varies",
+      "silverCoins": "90% dimes, quarters, and halves from each mint that struck them, typically two of each coin (double set packaging).",
+      "note": "1947\u20131958 uncirculated sets were double sets: two of each coin from each issuing mint, so silver content depends on which mints struck dimes, quarters, and halves that year. Marked varies rather than assuming a single ASW.",
+      "fineness": null
+    },
+    {
+      "year": 1959,
+      "kind": "proof",
+      "name": "1959 Proof Set",
+      "asw": 0.6149,
+      "status": "ok",
+      "silverCoins": "90% dime, quarter, and half ($0.85 face). Cent and nickel are not silver.",
+      "note": "Standard 5-coin proof set. Last 90% circulating-type proof set is 1964.",
+      "fineness": 0.9
+    },
+    {
+      "year": 1959,
+      "kind": "mint",
+      "name": "1959 Uncirculated Mint Set",
+      "asw": 1.2298,
+      "status": "ok",
+      "silverCoins": "Philadelphia and Denver 90% dime, quarter, and half (two of each denomination, $1.70 face).",
+      "note": "From 1959 the Mint issued single (not double) sets with one coin of each denomination from each mint represented. Silver ASW is 2 \u00d7 0.6149 = 1.2298 ozt.",
+      "fineness": 0.9
+    },
+    {
+      "year": 1960,
+      "kind": "proof",
+      "name": "1960 Proof Set",
+      "asw": 0.6149,
+      "status": "ok",
+      "silverCoins": "90% dime, quarter, and half ($0.85 face). Cent and nickel are not silver.",
+      "note": "Standard 5-coin proof set. Last 90% circulating-type proof set is 1964.",
+      "fineness": 0.9
+    },
+    {
+      "year": 1960,
+      "kind": "mint",
+      "name": "1960 Uncirculated Mint Set",
+      "asw": 1.2298,
+      "status": "ok",
+      "silverCoins": "Philadelphia and Denver 90% dime, quarter, and half (two of each denomination, $1.70 face).",
+      "note": "From 1959 the Mint issued single (not double) sets with one coin of each denomination from each mint represented. Silver ASW is 2 \u00d7 0.6149 = 1.2298 ozt.",
+      "fineness": 0.9
+    },
+    {
+      "year": 1961,
+      "kind": "proof",
+      "name": "1961 Proof Set",
+      "asw": 0.6149,
+      "status": "ok",
+      "silverCoins": "90% dime, quarter, and half ($0.85 face). Cent and nickel are not silver.",
+      "note": "Standard 5-coin proof set. Last 90% circulating-type proof set is 1964.",
+      "fineness": 0.9
+    },
+    {
+      "year": 1961,
+      "kind": "mint",
+      "name": "1961 Uncirculated Mint Set",
+      "asw": 1.2298,
+      "status": "ok",
+      "silverCoins": "Philadelphia and Denver 90% dime, quarter, and half (two of each denomination, $1.70 face).",
+      "note": "From 1959 the Mint issued single (not double) sets with one coin of each denomination from each mint represented. Silver ASW is 2 \u00d7 0.6149 = 1.2298 ozt.",
+      "fineness": 0.9
+    },
+    {
+      "year": 1962,
+      "kind": "proof",
+      "name": "1962 Proof Set",
+      "asw": 0.6149,
+      "status": "ok",
+      "silverCoins": "90% dime, quarter, and half ($0.85 face). Cent and nickel are not silver.",
+      "note": "Standard 5-coin proof set. Last 90% circulating-type proof set is 1964.",
+      "fineness": 0.9
+    },
+    {
+      "year": 1962,
+      "kind": "mint",
+      "name": "1962 Uncirculated Mint Set",
+      "asw": 1.2298,
+      "status": "ok",
+      "silverCoins": "Philadelphia and Denver 90% dime, quarter, and half (two of each denomination, $1.70 face).",
+      "note": "From 1959 the Mint issued single (not double) sets with one coin of each denomination from each mint represented. Silver ASW is 2 \u00d7 0.6149 = 1.2298 ozt.",
+      "fineness": 0.9
+    },
+    {
+      "year": 1963,
+      "kind": "proof",
+      "name": "1963 Proof Set",
+      "asw": 0.6149,
+      "status": "ok",
+      "silverCoins": "90% dime, quarter, and half ($0.85 face). Cent and nickel are not silver.",
+      "note": "Standard 5-coin proof set. Last 90% circulating-type proof set is 1964.",
+      "fineness": 0.9
+    },
+    {
+      "year": 1963,
+      "kind": "mint",
+      "name": "1963 Uncirculated Mint Set",
+      "asw": 1.2298,
+      "status": "ok",
+      "silverCoins": "Philadelphia and Denver 90% dime, quarter, and half (two of each denomination, $1.70 face).",
+      "note": "From 1959 the Mint issued single (not double) sets with one coin of each denomination from each mint represented. Silver ASW is 2 \u00d7 0.6149 = 1.2298 ozt.",
+      "fineness": 0.9
+    },
+    {
+      "year": 1964,
+      "kind": "proof",
+      "name": "1964 Proof Set",
+      "asw": 0.6149,
+      "status": "ok",
+      "silverCoins": "90% dime, quarter, and half ($0.85 face). Cent and nickel are not silver.",
+      "note": "Standard 5-coin proof set. Last 90% circulating-type proof set is 1964.",
+      "fineness": 0.9
+    },
+    {
+      "year": 1964,
+      "kind": "mint",
+      "name": "1964 Uncirculated Mint Set",
+      "asw": 1.2298,
+      "status": "ok",
+      "silverCoins": "Philadelphia and Denver 90% dime, quarter, and half (two of each denomination, $1.70 face).",
+      "note": "From 1959 the Mint issued single (not double) sets with one coin of each denomination from each mint represented. Silver ASW is 2 \u00d7 0.6149 = 1.2298 ozt.",
+      "fineness": 0.9
+    },
+    {
+      "year": 1965,
+      "kind": "proof",
+      "name": "1965 Proof Set",
+      "asw": null,
+      "status": "none",
+      "silverCoins": "",
+      "note": "No regular proof set this year. The Mint issued Special Mint Sets (SMS) instead; see the SMS row.",
+      "fineness": null
+    },
+    {
+      "year": 1965,
+      "kind": "sms",
+      "name": "1965 Special Mint Set (SMS)",
+      "asw": 0.1479,
+      "status": "ok",
+      "silverCoins": "One 40% silver Kennedy half. Other denominations are clad (copper-nickel on a copper core; the 1965\u201367 dime and quarter are not silver).",
+      "note": "SMS stood in for proof and mint sets in 1965\u20131967. Silver in the set is a single 40% Kennedy half (ASW 0.1479 ozt).",
+      "fineness": 0.4
+    },
+    {
+      "year": 1965,
+      "kind": "mint",
+      "name": "1965 Uncirculated Mint Set",
+      "asw": null,
+      "status": "none",
+      "silverCoins": "",
+      "note": "No regular uncirculated mint set this year. See the 1965\u20131967 Special Mint Set (one 40% Kennedy half).",
+      "fineness": null
+    },
+    {
+      "year": 1966,
+      "kind": "proof",
+      "name": "1966 Proof Set",
+      "asw": null,
+      "status": "none",
+      "silverCoins": "",
+      "note": "No regular proof set this year. The Mint issued Special Mint Sets (SMS) instead; see the SMS row.",
+      "fineness": null
+    },
+    {
+      "year": 1966,
+      "kind": "sms",
+      "name": "1966 Special Mint Set (SMS)",
+      "asw": 0.1479,
+      "status": "ok",
+      "silverCoins": "One 40% silver Kennedy half. Other denominations are clad (copper-nickel on a copper core; the 1965\u201367 dime and quarter are not silver).",
+      "note": "SMS stood in for proof and mint sets in 1965\u20131967. Silver in the set is a single 40% Kennedy half (ASW 0.1479 ozt).",
+      "fineness": 0.4
+    },
+    {
+      "year": 1966,
+      "kind": "mint",
+      "name": "1966 Uncirculated Mint Set",
+      "asw": null,
+      "status": "none",
+      "silverCoins": "",
+      "note": "No regular uncirculated mint set this year. See the 1965\u20131967 Special Mint Set (one 40% Kennedy half).",
+      "fineness": null
+    },
+    {
+      "year": 1967,
+      "kind": "proof",
+      "name": "1967 Proof Set",
+      "asw": null,
+      "status": "none",
+      "silverCoins": "",
+      "note": "No regular proof set this year. The Mint issued Special Mint Sets (SMS) instead; see the SMS row.",
+      "fineness": null
+    },
+    {
+      "year": 1967,
+      "kind": "sms",
+      "name": "1967 Special Mint Set (SMS)",
+      "asw": 0.1479,
+      "status": "ok",
+      "silverCoins": "One 40% silver Kennedy half. Other denominations are clad (copper-nickel on a copper core; the 1965\u201367 dime and quarter are not silver).",
+      "note": "SMS stood in for proof and mint sets in 1965\u20131967. Silver in the set is a single 40% Kennedy half (ASW 0.1479 ozt).",
+      "fineness": 0.4
+    },
+    {
+      "year": 1967,
+      "kind": "mint",
+      "name": "1967 Uncirculated Mint Set",
+      "asw": null,
+      "status": "none",
+      "silverCoins": "",
+      "note": "No regular uncirculated mint set this year. See the 1965\u20131967 Special Mint Set (one 40% Kennedy half).",
+      "fineness": null
+    },
+    {
+      "year": 1968,
+      "kind": "proof",
+      "name": "1968 Proof Set",
+      "asw": 0.1479,
+      "status": "ok",
+      "silverCoins": "One 40% silver Kennedy half (San Francisco). Other denominations are copper-nickel clad.",
+      "note": "1968\u20131970 proof sets contain a single 40% Kennedy half. Dime and quarter in these sets are not silver.",
+      "fineness": 0.4
+    },
+    {
+      "year": 1968,
+      "kind": "mint",
+      "name": "1968 Uncirculated Mint Set",
+      "asw": 0.1479,
+      "status": "ok",
+      "silverCoins": "One 1968-D Kennedy half (40% silver). No second half; other denominations in the set are not silver.",
+      "note": "10-coin set (P and D of the smaller denominations, plus a single half). Only the 1968-D Kennedy half is silver (40%). There is no Philadelphia half in the set. Dimes and quarters are clad.",
+      "fineness": 0.4
+    },
+    {
+      "year": 1969,
+      "kind": "proof",
+      "name": "1969 Proof Set",
+      "asw": 0.1479,
+      "status": "ok",
+      "silverCoins": "One 40% silver Kennedy half (San Francisco). Other denominations are copper-nickel clad.",
+      "note": "1968\u20131970 proof sets contain a single 40% Kennedy half. Dime and quarter in these sets are not silver.",
+      "fineness": 0.4
+    },
+    {
+      "year": 1969,
+      "kind": "mint",
+      "name": "1969 Uncirculated Mint Set",
+      "asw": 0.1479,
+      "status": "ok",
+      "silverCoins": "One 1969-D Kennedy half (40% silver). No second half; other denominations in the set are not silver.",
+      "note": "10-coin set. Only one Kennedy half is included \u2014 the 1969-D 40% silver half \u2014 so ASW is 0.1479 ozt, not two halves. Dimes and quarters in the set are copper-nickel clad, not silver.",
+      "fineness": 0.4
+    },
+    {
+      "year": 1970,
+      "kind": "proof",
+      "name": "1970 Proof Set",
+      "asw": 0.1479,
+      "status": "ok",
+      "silverCoins": "One 40% silver Kennedy half (San Francisco). Other denominations are copper-nickel clad.",
+      "note": "1968\u20131970 proof sets contain a single 40% Kennedy half. Dime and quarter in these sets are not silver.",
+      "fineness": 0.4
+    },
+    {
+      "year": 1970,
+      "kind": "mint",
+      "name": "1970 Uncirculated Mint Set",
+      "asw": 0.1479,
+      "status": "ok",
+      "silverCoins": "One 1970-D Kennedy half (40% silver). No second half; other denominations in the set are not silver.",
+      "note": "10-coin set. Only one Kennedy half is included \u2014 the 1970-D 40% silver half, which was issued in the mint set and not for circulation (the key date in this series). ASW is a single half, 0.1479 ozt. Dimes and quarters are clad.",
+      "fineness": 0.4
+    },
+    {
+      "year": 1971,
+      "kind": "proof",
+      "name": "1971 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular proof set is copper-nickel clad (no silver). The 40% silver Eisenhower dollar was sold separately (brown-box proof / blue-envelope uncirculated).",
+      "fineness": null
+    },
+    {
+      "year": 1971,
+      "kind": "mint",
+      "name": "1971 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 1971,
+      "kind": "special",
+      "name": "1971 40% Silver Eisenhower Dollar (proof, brown box)",
+      "asw": 0.3162,
+      "status": "ok",
+      "silverCoins": "One 40% silver Ike dollar (proof).",
+      "note": "Sold individually, not in the regular clad proof set. ASW 0.3162 ozt (24.59 g \u00d7 0.40 / 31.1034768).",
+      "fineness": 0.4
+    },
+    {
+      "year": 1971,
+      "kind": "special",
+      "name": "1971 40% Silver Eisenhower Dollar (uncirculated, blue envelope)",
+      "asw": 0.3162,
+      "status": "ok",
+      "silverCoins": "One 40% silver Ike dollar (uncirculated).",
+      "note": "Sold individually, not in the regular mint set. Same 40% silver content as the brown-box proof (0.3162 ozt).",
+      "fineness": 0.4
+    },
+    {
+      "year": 1972,
+      "kind": "proof",
+      "name": "1972 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular proof set is copper-nickel clad (no silver). 40% silver Ike sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 1972,
+      "kind": "mint",
+      "name": "1972 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 1972,
+      "kind": "special",
+      "name": "1972 40% Silver Eisenhower Dollar (proof, brown box)",
+      "asw": 0.3162,
+      "status": "ok",
+      "silverCoins": "One 40% silver Ike dollar (proof).",
+      "note": "Sold individually, not in the regular clad proof set. ASW 0.3162 ozt (24.59 g \u00d7 0.40 / 31.1034768).",
+      "fineness": 0.4
+    },
+    {
+      "year": 1972,
+      "kind": "special",
+      "name": "1972 40% Silver Eisenhower Dollar (uncirculated, blue envelope)",
+      "asw": 0.3162,
+      "status": "ok",
+      "silverCoins": "One 40% silver Ike dollar (uncirculated).",
+      "note": "Sold individually, not in the regular mint set. Same 40% silver content as the brown-box proof (0.3162 ozt).",
+      "fineness": 0.4
+    },
+    {
+      "year": 1973,
+      "kind": "proof",
+      "name": "1973 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular proof set includes a clad Ike dollar and has no silver. 40% silver Ike sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 1973,
+      "kind": "mint",
+      "name": "1973 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 1973,
+      "kind": "special",
+      "name": "1973 40% Silver Eisenhower Dollar (proof, brown box)",
+      "asw": 0.3162,
+      "status": "ok",
+      "silverCoins": "One 40% silver Ike dollar (proof).",
+      "note": "Sold individually, not in the regular clad proof set. ASW 0.3162 ozt (24.59 g \u00d7 0.40 / 31.1034768).",
+      "fineness": 0.4
+    },
+    {
+      "year": 1973,
+      "kind": "special",
+      "name": "1973 40% Silver Eisenhower Dollar (uncirculated, blue envelope)",
+      "asw": 0.3162,
+      "status": "ok",
+      "silverCoins": "One 40% silver Ike dollar (uncirculated).",
+      "note": "Sold individually, not in the regular mint set. Same 40% silver content as the brown-box proof (0.3162 ozt).",
+      "fineness": 0.4
+    },
+    {
+      "year": 1974,
+      "kind": "proof",
+      "name": "1974 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular proof set includes a clad Ike dollar and has no silver. 40% silver Ike sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 1974,
+      "kind": "mint",
+      "name": "1974 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 1974,
+      "kind": "special",
+      "name": "1974 40% Silver Eisenhower Dollar (proof, brown box)",
+      "asw": 0.3162,
+      "status": "ok",
+      "silverCoins": "One 40% silver Ike dollar (proof).",
+      "note": "Sold individually, not in the regular clad proof set. ASW 0.3162 ozt (24.59 g \u00d7 0.40 / 31.1034768).",
+      "fineness": 0.4
+    },
+    {
+      "year": 1974,
+      "kind": "special",
+      "name": "1974 40% Silver Eisenhower Dollar (uncirculated, blue envelope)",
+      "asw": 0.3162,
+      "status": "ok",
+      "silverCoins": "One 40% silver Ike dollar (uncirculated).",
+      "note": "Sold individually, not in the regular mint set. Same 40% silver content as the brown-box proof (0.3162 ozt).",
+      "fineness": 0.4
+    },
+    {
+      "year": 1975,
+      "kind": "proof",
+      "name": "1975 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular proof set is clad (no silver). No 1975-dated Ike dollar; Ikes of this era are dated 1976.",
+      "fineness": null
+    },
+    {
+      "year": 1975,
+      "kind": "mint",
+      "name": "1975 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 1976,
+      "kind": "proof",
+      "name": "1976 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular (clad) proof set has no silver. The 3-piece 40% silver Bicentennial set (quarter, half, dollar) was sold separately \u2014 see that row.",
+      "fineness": null
+    },
+    {
+      "year": 1976,
+      "kind": "mint",
+      "name": "1976 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set is clad (no silver). The 3-piece 40% Bicentennial silver set was a separate product.",
+      "fineness": null
+    },
+    {
+      "year": 1976,
+      "kind": "special",
+      "name": "1976 3-piece Bicentennial Silver Set (40%)",
+      "asw": 0.5381,
+      "status": "ok",
+      "silverCoins": "40% silver Bicentennial quarter, half, and Eisenhower dollar (proof or uncirculated versions have the same silver content).",
+      "note": "Sold separately from the regular clad 1976 proof and mint sets. ASW = 0.0739 + 0.1479 + 0.3162 = 0.5381 ozt (quarter 5.75 g, half 11.50 g, dollar 24.59 g, each 40% silver).",
+      "fineness": 0.4
+    },
+    {
+      "year": 1976,
+      "kind": "special",
+      "name": "1976 40% Silver Eisenhower Dollar (proof, brown box)",
+      "asw": 0.3162,
+      "status": "ok",
+      "silverCoins": "One 40% silver Ike dollar (proof).",
+      "note": "Sold individually, not in the regular clad proof set. ASW 0.3162 ozt (24.59 g \u00d7 0.40 / 31.1034768).",
+      "fineness": 0.4
+    },
+    {
+      "year": 1976,
+      "kind": "special",
+      "name": "1976 40% Silver Eisenhower Dollar (uncirculated, blue envelope)",
+      "asw": 0.3162,
+      "status": "ok",
+      "silverCoins": "One 40% silver Ike dollar (uncirculated).",
+      "note": "Sold individually, not in the regular mint set. Same 40% silver content as the brown-box proof (0.3162 ozt).",
+      "fineness": 0.4
+    },
+    {
+      "year": 1977,
+      "kind": "proof",
+      "name": "1977 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular proof set includes a clad Ike dollar and has no silver.",
+      "fineness": null
+    },
+    {
+      "year": 1977,
+      "kind": "mint",
+      "name": "1977 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 1978,
+      "kind": "proof",
+      "name": "1978 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular proof set includes a clad Ike dollar and has no silver.",
+      "fineness": null
+    },
+    {
+      "year": 1978,
+      "kind": "mint",
+      "name": "1978 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 1979,
+      "kind": "proof",
+      "name": "1979 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular proof set includes a clad Susan B. Anthony dollar and has no silver.",
+      "fineness": null
+    },
+    {
+      "year": 1979,
+      "kind": "mint",
+      "name": "1979 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 1980,
+      "kind": "proof",
+      "name": "1980 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Clad proof set (cent through SBA dollar). No silver content. This is the standard 1980-S proof set collectors received; it is not a silver proof set (those began in 1992).",
+      "fineness": null
+    },
+    {
+      "year": 1980,
+      "kind": "mint",
+      "name": "1980 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set is clad (includes the SBA dollar) and has no silver.",
+      "fineness": null
+    },
+    {
+      "year": 1981,
+      "kind": "proof",
+      "name": "1981 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular proof set includes a clad SBA dollar and has no silver.",
+      "fineness": null
+    },
+    {
+      "year": 1981,
+      "kind": "mint",
+      "name": "1981 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 1982,
+      "kind": "proof",
+      "name": "1982 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular (clad / base-metal) proof set. No silver. Silver Proof sets, when issued, are listed as a separate product.",
+      "fineness": null
+    },
+    {
+      "year": 1982,
+      "kind": "mint",
+      "name": "1982 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 1983,
+      "kind": "proof",
+      "name": "1983 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular (clad / base-metal) proof set. No silver. Silver Proof sets, when issued, are listed as a separate product.",
+      "fineness": null
+    },
+    {
+      "year": 1983,
+      "kind": "mint",
+      "name": "1983 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 1984,
+      "kind": "proof",
+      "name": "1984 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular (clad / base-metal) proof set. No silver. Silver Proof sets, when issued, are listed as a separate product.",
+      "fineness": null
+    },
+    {
+      "year": 1984,
+      "kind": "mint",
+      "name": "1984 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 1985,
+      "kind": "proof",
+      "name": "1985 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular (clad / base-metal) proof set. No silver. Silver Proof sets, when issued, are listed as a separate product.",
+      "fineness": null
+    },
+    {
+      "year": 1985,
+      "kind": "mint",
+      "name": "1985 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 1986,
+      "kind": "proof",
+      "name": "1986 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular (clad / base-metal) proof set. No silver. Silver Proof sets, when issued, are listed as a separate product.",
+      "fineness": null
+    },
+    {
+      "year": 1986,
+      "kind": "mint",
+      "name": "1986 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 1987,
+      "kind": "proof",
+      "name": "1987 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular (clad / base-metal) proof set. No silver. Silver Proof sets, when issued, are listed as a separate product.",
+      "fineness": null
+    },
+    {
+      "year": 1987,
+      "kind": "mint",
+      "name": "1987 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 1988,
+      "kind": "proof",
+      "name": "1988 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular (clad / base-metal) proof set. No silver. Silver Proof sets, when issued, are listed as a separate product.",
+      "fineness": null
+    },
+    {
+      "year": 1988,
+      "kind": "mint",
+      "name": "1988 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 1989,
+      "kind": "proof",
+      "name": "1989 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular (clad / base-metal) proof set. No silver. Silver Proof sets, when issued, are listed as a separate product.",
+      "fineness": null
+    },
+    {
+      "year": 1989,
+      "kind": "mint",
+      "name": "1989 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 1990,
+      "kind": "proof",
+      "name": "1990 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular (clad / base-metal) proof set. No silver. Silver Proof sets, when issued, are listed as a separate product.",
+      "fineness": null
+    },
+    {
+      "year": 1990,
+      "kind": "mint",
+      "name": "1990 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 1991,
+      "kind": "proof",
+      "name": "1991 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular (clad / base-metal) proof set. No silver. Silver Proof sets, when issued, are listed as a separate product.",
+      "fineness": null
+    },
+    {
+      "year": 1991,
+      "kind": "mint",
+      "name": "1991 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 1992,
+      "kind": "proof",
+      "name": "1992 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular (clad / base-metal) proof set. No silver. Silver Proof sets, when issued, are listed as a separate product.",
+      "fineness": null
+    },
+    {
+      "year": 1992,
+      "kind": "silver_proof",
+      "name": "1992 Silver Proof Set",
+      "asw": 0.6149,
+      "status": "ok",
+      "silverCoins": "90% dime, quarter, and half (same $0.85 face as a 1950\u201364 proof set). Cent and nickel are not silver.",
+      "note": "Premier / Silver Proof set. 90% silver dime, quarter, and half.",
+      "fineness": 0.9
+    },
+    {
+      "year": 1992,
+      "kind": "mint",
+      "name": "1992 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 1993,
+      "kind": "proof",
+      "name": "1993 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular (clad / base-metal) proof set. No silver. Silver Proof sets, when issued, are listed as a separate product.",
+      "fineness": null
+    },
+    {
+      "year": 1993,
+      "kind": "silver_proof",
+      "name": "1993 Silver Proof Set",
+      "asw": 0.6149,
+      "status": "ok",
+      "silverCoins": "90% dime, quarter, and half (same $0.85 face as a 1950\u201364 proof set). Cent and nickel are not silver.",
+      "note": "Premier / Silver Proof set. 90% silver dime, quarter, and half.",
+      "fineness": 0.9
+    },
+    {
+      "year": 1993,
+      "kind": "mint",
+      "name": "1993 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 1994,
+      "kind": "proof",
+      "name": "1994 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular (clad / base-metal) proof set. No silver. Silver Proof sets, when issued, are listed as a separate product.",
+      "fineness": null
+    },
+    {
+      "year": 1994,
+      "kind": "silver_proof",
+      "name": "1994 Silver Proof Set",
+      "asw": 0.6149,
+      "status": "ok",
+      "silverCoins": "90% dime, quarter, and half (same $0.85 face as a 1950\u201364 proof set). Cent and nickel are not silver.",
+      "note": "Premier / Silver Proof set. 90% silver dime, quarter, and half.",
+      "fineness": 0.9
+    },
+    {
+      "year": 1994,
+      "kind": "mint",
+      "name": "1994 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 1995,
+      "kind": "proof",
+      "name": "1995 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular (clad / base-metal) proof set. No silver. Silver Proof sets, when issued, are listed as a separate product.",
+      "fineness": null
+    },
+    {
+      "year": 1995,
+      "kind": "silver_proof",
+      "name": "1995 Silver Proof Set",
+      "asw": 0.6149,
+      "status": "ok",
+      "silverCoins": "90% dime, quarter, and half (same $0.85 face as a 1950\u201364 proof set). Cent and nickel are not silver.",
+      "note": "Premier / Silver Proof set. 90% silver dime, quarter, and half.",
+      "fineness": 0.9
+    },
+    {
+      "year": 1995,
+      "kind": "mint",
+      "name": "1995 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 1996,
+      "kind": "proof",
+      "name": "1996 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular (clad / base-metal) proof set. No silver. Silver Proof sets, when issued, are listed as a separate product.",
+      "fineness": null
+    },
+    {
+      "year": 1996,
+      "kind": "silver_proof",
+      "name": "1996 Silver Proof Set",
+      "asw": 0.6149,
+      "status": "ok",
+      "silverCoins": "90% dime, quarter, and half (same $0.85 face as a 1950\u201364 proof set). Cent and nickel are not silver.",
+      "note": "Premier / Silver Proof set. 90% silver dime, quarter, and half.",
+      "fineness": 0.9
+    },
+    {
+      "year": 1996,
+      "kind": "mint",
+      "name": "1996 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 1997,
+      "kind": "proof",
+      "name": "1997 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular (clad / base-metal) proof set. No silver. Silver Proof sets, when issued, are listed as a separate product.",
+      "fineness": null
+    },
+    {
+      "year": 1997,
+      "kind": "silver_proof",
+      "name": "1997 Silver Proof Set",
+      "asw": 0.6149,
+      "status": "ok",
+      "silverCoins": "90% dime, quarter, and half (same $0.85 face as a 1950\u201364 proof set). Cent and nickel are not silver.",
+      "note": "Premier / Silver Proof set. 90% silver dime, quarter, and half.",
+      "fineness": 0.9
+    },
+    {
+      "year": 1997,
+      "kind": "mint",
+      "name": "1997 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 1998,
+      "kind": "proof",
+      "name": "1998 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular (clad / base-metal) proof set. No silver. Silver Proof sets, when issued, are listed as a separate product.",
+      "fineness": null
+    },
+    {
+      "year": 1998,
+      "kind": "silver_proof",
+      "name": "1998 Silver Proof Set",
+      "asw": 0.6149,
+      "status": "ok",
+      "silverCoins": "90% dime, quarter, and half (same $0.85 face as a 1950\u201364 proof set). Cent and nickel are not silver.",
+      "note": "Premier / Silver Proof set. 90% silver dime, quarter, and half.",
+      "fineness": 0.9
+    },
+    {
+      "year": 1998,
+      "kind": "mint",
+      "name": "1998 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 1999,
+      "kind": "proof",
+      "name": "1999 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular (clad / base-metal) proof set. No silver. Silver Proof sets, when issued, are listed as a separate product.",
+      "fineness": null
+    },
+    {
+      "year": 1999,
+      "kind": "silver_proof",
+      "name": "1999 Silver Proof Set",
+      "asw": 1.3383,
+      "status": "ok",
+      "silverCoins": "90% dime, five State quarters, and half.",
+      "note": "State Quarters era: five 90% silver quarters plus the 90% dime and half.",
+      "fineness": 0.9
+    },
+    {
+      "year": 1999,
+      "kind": "mint",
+      "name": "1999 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 2000,
+      "kind": "proof",
+      "name": "2000 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular (clad / base-metal) proof set. No silver. Silver Proof sets, when issued, are listed as a separate product.",
+      "fineness": null
+    },
+    {
+      "year": 2000,
+      "kind": "silver_proof",
+      "name": "2000 Silver Proof Set",
+      "asw": 1.3383,
+      "status": "ok",
+      "silverCoins": "90% dime, five State quarters, and half.",
+      "note": "State Quarters era: five 90% silver quarters plus the 90% dime and half.",
+      "fineness": 0.9
+    },
+    {
+      "year": 2000,
+      "kind": "mint",
+      "name": "2000 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 2001,
+      "kind": "proof",
+      "name": "2001 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular (clad / base-metal) proof set. No silver. Silver Proof sets, when issued, are listed as a separate product.",
+      "fineness": null
+    },
+    {
+      "year": 2001,
+      "kind": "silver_proof",
+      "name": "2001 Silver Proof Set",
+      "asw": 1.3383,
+      "status": "ok",
+      "silverCoins": "90% dime, five State quarters, and half.",
+      "note": "State Quarters era: five 90% silver quarters plus the 90% dime and half.",
+      "fineness": 0.9
+    },
+    {
+      "year": 2001,
+      "kind": "mint",
+      "name": "2001 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 2002,
+      "kind": "proof",
+      "name": "2002 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular (clad / base-metal) proof set. No silver. Silver Proof sets, when issued, are listed as a separate product.",
+      "fineness": null
+    },
+    {
+      "year": 2002,
+      "kind": "silver_proof",
+      "name": "2002 Silver Proof Set",
+      "asw": 1.3383,
+      "status": "ok",
+      "silverCoins": "90% dime, five State quarters, and half.",
+      "note": "State Quarters era: five 90% silver quarters plus the 90% dime and half.",
+      "fineness": 0.9
+    },
+    {
+      "year": 2002,
+      "kind": "mint",
+      "name": "2002 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 2003,
+      "kind": "proof",
+      "name": "2003 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular (clad / base-metal) proof set. No silver. Silver Proof sets, when issued, are listed as a separate product.",
+      "fineness": null
+    },
+    {
+      "year": 2003,
+      "kind": "silver_proof",
+      "name": "2003 Silver Proof Set",
+      "asw": 1.3383,
+      "status": "ok",
+      "silverCoins": "90% dime, five State quarters, and half.",
+      "note": "State Quarters era: five 90% silver quarters plus the 90% dime and half.",
+      "fineness": 0.9
+    },
+    {
+      "year": 2003,
+      "kind": "mint",
+      "name": "2003 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 2004,
+      "kind": "proof",
+      "name": "2004 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular (clad / base-metal) proof set. No silver. Silver Proof sets, when issued, are listed as a separate product.",
+      "fineness": null
+    },
+    {
+      "year": 2004,
+      "kind": "silver_proof",
+      "name": "2004 Silver Proof Set",
+      "asw": 1.3383,
+      "status": "ok",
+      "silverCoins": "90% dime, five State quarters, and half.",
+      "note": "State Quarters era: five 90% silver quarters plus the 90% dime and half.",
+      "fineness": 0.9
+    },
+    {
+      "year": 2004,
+      "kind": "mint",
+      "name": "2004 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 2005,
+      "kind": "proof",
+      "name": "2005 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular (clad / base-metal) proof set. No silver. Silver Proof sets, when issued, are listed as a separate product.",
+      "fineness": null
+    },
+    {
+      "year": 2005,
+      "kind": "silver_proof",
+      "name": "2005 Silver Proof Set",
+      "asw": 1.3383,
+      "status": "ok",
+      "silverCoins": "90% dime, five State quarters, and half.",
+      "note": "State Quarters era: five 90% silver quarters plus the 90% dime and half.",
+      "fineness": 0.9
+    },
+    {
+      "year": 2005,
+      "kind": "mint",
+      "name": "2005 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 2006,
+      "kind": "proof",
+      "name": "2006 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular (clad / base-metal) proof set. No silver. Silver Proof sets, when issued, are listed as a separate product.",
+      "fineness": null
+    },
+    {
+      "year": 2006,
+      "kind": "silver_proof",
+      "name": "2006 Silver Proof Set",
+      "asw": 1.3383,
+      "status": "ok",
+      "silverCoins": "90% dime, five State quarters, and half.",
+      "note": "State Quarters era: five 90% silver quarters plus the 90% dime and half.",
+      "fineness": 0.9
+    },
+    {
+      "year": 2006,
+      "kind": "mint",
+      "name": "2006 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 2007,
+      "kind": "proof",
+      "name": "2007 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular (clad / base-metal) proof set. No silver. Silver Proof sets, when issued, are listed as a separate product.",
+      "fineness": null
+    },
+    {
+      "year": 2007,
+      "kind": "silver_proof",
+      "name": "2007 Silver Proof Set",
+      "asw": 1.3383,
+      "status": "ok",
+      "silverCoins": "90% dime, five State quarters, and half.",
+      "note": "State Quarters era: five 90% silver quarters plus the 90% dime and half.",
+      "fineness": 0.9
+    },
+    {
+      "year": 2007,
+      "kind": "mint",
+      "name": "2007 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 2008,
+      "kind": "proof",
+      "name": "2008 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular (clad / base-metal) proof set. No silver. Silver Proof sets, when issued, are listed as a separate product.",
+      "fineness": null
+    },
+    {
+      "year": 2008,
+      "kind": "silver_proof",
+      "name": "2008 Silver Proof Set",
+      "asw": 1.3383,
+      "status": "ok",
+      "silverCoins": "90% dime, five State quarters, and half.",
+      "note": "State Quarters era: five 90% silver quarters plus the 90% dime and half.",
+      "fineness": 0.9
+    },
+    {
+      "year": 2008,
+      "kind": "mint",
+      "name": "2008 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 2009,
+      "kind": "proof",
+      "name": "2009 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular (clad / base-metal) proof set. No silver. Silver Proof sets, when issued, are listed as a separate product.",
+      "fineness": null
+    },
+    {
+      "year": 2009,
+      "kind": "silver_proof",
+      "name": "2009 Silver Proof Set",
+      "asw": 1.5191,
+      "status": "ok",
+      "silverCoins": "90% dime, six quarters (D.C. and five U.S. territories), and half.",
+      "note": "2009 is the only standard Silver Proof Set with six quarters (District of Columbia, Puerto Rico, Guam, American Samoa, U.S. Virgin Islands, Northern Mariana Islands).",
+      "fineness": 0.9
+    },
+    {
+      "year": 2009,
+      "kind": "mint",
+      "name": "2009 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 2010,
+      "kind": "proof",
+      "name": "2010 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular (clad / base-metal) proof set. No silver. Silver Proof sets, when issued, are listed as a separate product.",
+      "fineness": null
+    },
+    {
+      "year": 2010,
+      "kind": "silver_proof",
+      "name": "2010 Silver Proof Set",
+      "asw": 1.3383,
+      "status": "ok",
+      "silverCoins": "90% dime, five America the Beautiful quarters, and half.",
+      "note": "Standard 2010\u20132018 Silver Proof composition (90% silver).",
+      "fineness": 0.9
+    },
+    {
+      "year": 2010,
+      "kind": "mint",
+      "name": "2010 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 2011,
+      "kind": "proof",
+      "name": "2011 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular (clad / base-metal) proof set. No silver. Silver Proof sets, when issued, are listed as a separate product.",
+      "fineness": null
+    },
+    {
+      "year": 2011,
+      "kind": "silver_proof",
+      "name": "2011 Silver Proof Set",
+      "asw": 1.3383,
+      "status": "ok",
+      "silverCoins": "90% dime, five America the Beautiful quarters, and half.",
+      "note": "Standard 2010\u20132018 Silver Proof composition (90% silver).",
+      "fineness": 0.9
+    },
+    {
+      "year": 2011,
+      "kind": "mint",
+      "name": "2011 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 2012,
+      "kind": "proof",
+      "name": "2012 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular (clad / base-metal) proof set. No silver. Silver Proof sets, when issued, are listed as a separate product.",
+      "fineness": null
+    },
+    {
+      "year": 2012,
+      "kind": "silver_proof",
+      "name": "2012 Silver Proof Set",
+      "asw": 1.3383,
+      "status": "ok",
+      "silverCoins": "90% dime, five America the Beautiful quarters, and half.",
+      "note": "Standard 2010\u20132018 Silver Proof composition (90% silver). 2012 has the same silver coin count as other 2010\u20132018 Silver Proof Sets (dime + five America the Beautiful quarters + half); the year is notable for a low mintage, not a different silver makeup.",
+      "fineness": 0.9
+    },
+    {
+      "year": 2012,
+      "kind": "mint",
+      "name": "2012 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 2013,
+      "kind": "proof",
+      "name": "2013 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular (clad / base-metal) proof set. No silver. Silver Proof sets, when issued, are listed as a separate product.",
+      "fineness": null
+    },
+    {
+      "year": 2013,
+      "kind": "silver_proof",
+      "name": "2013 Silver Proof Set",
+      "asw": 1.3383,
+      "status": "ok",
+      "silverCoins": "90% dime, five America the Beautiful quarters, and half.",
+      "note": "Standard 2010\u20132018 Silver Proof composition (90% silver).",
+      "fineness": 0.9
+    },
+    {
+      "year": 2013,
+      "kind": "mint",
+      "name": "2013 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 2014,
+      "kind": "proof",
+      "name": "2014 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular (clad / base-metal) proof set. No silver. Silver Proof sets, when issued, are listed as a separate product.",
+      "fineness": null
+    },
+    {
+      "year": 2014,
+      "kind": "silver_proof",
+      "name": "2014 Silver Proof Set",
+      "asw": 1.3383,
+      "status": "ok",
+      "silverCoins": "90% dime, five America the Beautiful quarters, and half.",
+      "note": "Standard 2010\u20132018 Silver Proof composition (90% silver).",
+      "fineness": 0.9
+    },
+    {
+      "year": 2014,
+      "kind": "mint",
+      "name": "2014 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 2015,
+      "kind": "proof",
+      "name": "2015 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular (clad / base-metal) proof set. No silver. Silver Proof sets, when issued, are listed as a separate product.",
+      "fineness": null
+    },
+    {
+      "year": 2015,
+      "kind": "silver_proof",
+      "name": "2015 Silver Proof Set",
+      "asw": 1.3383,
+      "status": "ok",
+      "silverCoins": "90% dime, five America the Beautiful quarters, and half.",
+      "note": "Standard 2010\u20132018 Silver Proof composition (90% silver).",
+      "fineness": 0.9
+    },
+    {
+      "year": 2015,
+      "kind": "mint",
+      "name": "2015 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 2016,
+      "kind": "proof",
+      "name": "2016 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular (clad / base-metal) proof set. No silver. Silver Proof sets, when issued, are listed as a separate product.",
+      "fineness": null
+    },
+    {
+      "year": 2016,
+      "kind": "silver_proof",
+      "name": "2016 Silver Proof Set",
+      "asw": 1.3383,
+      "status": "ok",
+      "silverCoins": "90% dime, five America the Beautiful quarters, and half.",
+      "note": "Standard 2010\u20132018 Silver Proof composition (90% silver).",
+      "fineness": 0.9
+    },
+    {
+      "year": 2016,
+      "kind": "mint",
+      "name": "2016 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 2017,
+      "kind": "proof",
+      "name": "2017 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular (clad / base-metal) proof set. No silver. Silver Proof sets, when issued, are listed as a separate product.",
+      "fineness": null
+    },
+    {
+      "year": 2017,
+      "kind": "silver_proof",
+      "name": "2017 Silver Proof Set",
+      "asw": 1.3383,
+      "status": "ok",
+      "silverCoins": "90% dime, five America the Beautiful quarters, and half.",
+      "note": "Standard 2010\u20132018 Silver Proof composition (90% silver).",
+      "fineness": 0.9
+    },
+    {
+      "year": 2017,
+      "kind": "mint",
+      "name": "2017 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 2018,
+      "kind": "proof",
+      "name": "2018 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular (clad / base-metal) proof set. No silver. Silver Proof sets, when issued, are listed as a separate product.",
+      "fineness": null
+    },
+    {
+      "year": 2018,
+      "kind": "silver_proof",
+      "name": "2018 Silver Proof Set",
+      "asw": 1.3383,
+      "status": "ok",
+      "silverCoins": "90% dime, five America the Beautiful quarters, and half.",
+      "note": "Standard 2010\u20132018 Silver Proof composition (90% silver).",
+      "fineness": 0.9
+    },
+    {
+      "year": 2018,
+      "kind": "mint",
+      "name": "2018 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 2019,
+      "kind": "proof",
+      "name": "2019 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular (clad / base-metal) proof set. No silver. Silver Proof sets, when issued, are listed as a separate product.",
+      "fineness": null
+    },
+    {
+      "year": 2019,
+      "kind": "silver_proof",
+      "name": "2019 Silver Proof Set",
+      "asw": 1.5076,
+      "status": "ok",
+      "silverCoins": ".999 fine dime, five America the Beautiful quarters, and half (U.S. Mint nominal weights 2.537 g, 6.343 g, and 12.685 g at 0.999 fine).",
+      "note": "Beginning in 2019 the Mint struck Silver Proof dimes, quarters, and halves in 99.9% silver at new nominal weights. ASW uses those official weights \u00d7 0.999 \u00f7 31.1034768 g/ozt (dime + five quarters + half = 1.5076 ozt). The 2019 set also included a separately packaged 2019-W reverse-proof Lincoln cent and a Native American dollar; neither contains silver, and they are not added to ASW. Limited Edition Silver Proof Sets (which add a Silver Eagle) are a different product and are marked varies.",
+      "fineness": 0.999
+    },
+    {
+      "year": 2019,
+      "kind": "mint",
+      "name": "2019 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 2020,
+      "kind": "proof",
+      "name": "2020 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular (clad / base-metal) proof set. No silver. Silver Proof sets, when issued, are listed as a separate product.",
+      "fineness": null
+    },
+    {
+      "year": 2020,
+      "kind": "silver_proof",
+      "name": "2020 Silver Proof Set",
+      "asw": 1.5076,
+      "status": "ok",
+      "silverCoins": ".999 fine dime, five America the Beautiful quarters, and half (U.S. Mint nominal weights 2.537 g, 6.343 g, and 12.685 g at 0.999 fine).",
+      "note": "Beginning in 2019 the Mint struck Silver Proof dimes, quarters, and halves in 99.9% silver at new nominal weights. ASW uses those official weights \u00d7 0.999 \u00f7 31.1034768 g/ozt (dime + five quarters + half = 1.5076 ozt).",
+      "fineness": 0.999
+    },
+    {
+      "year": 2020,
+      "kind": "mint",
+      "name": "2020 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 2021,
+      "kind": "proof",
+      "name": "2021 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular (clad / base-metal) proof set. No silver. Silver Proof sets, when issued, are listed as a separate product.",
+      "fineness": null
+    },
+    {
+      "year": 2021,
+      "kind": "silver_proof",
+      "name": "2021 Silver Proof Set",
+      "asw": 0.8964,
+      "status": "ok",
+      "silverCoins": ".999 fine dime, two quarters (final America the Beautiful quarter \u2014 Tuskegee Airmen \u2014 and the Washington Crossing the Delaware quarter), and half.",
+      "note": "2021 is a two-quarter Silver Proof Set, not five. ASW = Mint nominal .999 weights for dime + 2 quarters + half = 0.8964 ozt.",
+      "fineness": 0.999
+    },
+    {
+      "year": 2021,
+      "kind": "mint",
+      "name": "2021 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 2022,
+      "kind": "proof",
+      "name": "2022 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular (clad / base-metal) proof set. No silver. Silver Proof sets, when issued, are listed as a separate product.",
+      "fineness": null
+    },
+    {
+      "year": 2022,
+      "kind": "silver_proof",
+      "name": "2022 Silver Proof Set",
+      "asw": 1.5076,
+      "status": "ok",
+      "silverCoins": ".999 fine dime, five American Women quarters, and half (same Mint nominal weights as 2019\u20132020).",
+      "note": "American Women Quarters program (five .999 silver quarters). Same dime/quarter/half nominal weights as 2019; Mint stated silver content did not change after catalog wording about a lower spec-limit appeared. ASW 1.5076 ozt uses the official nominal weights.",
+      "fineness": 0.999
+    },
+    {
+      "year": 2022,
+      "kind": "mint",
+      "name": "2022 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 2023,
+      "kind": "proof",
+      "name": "2023 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular (clad / base-metal) proof set. No silver. Silver Proof sets, when issued, are listed as a separate product.",
+      "fineness": null
+    },
+    {
+      "year": 2023,
+      "kind": "silver_proof",
+      "name": "2023 Silver Proof Set",
+      "asw": 1.5076,
+      "status": "ok",
+      "silverCoins": ".999 fine dime, five American Women quarters, and half (same Mint nominal weights as 2019\u20132020).",
+      "note": "American Women Quarters program (five .999 silver quarters). Same dime/quarter/half nominal weights as 2019; Mint stated silver content did not change after catalog wording about a lower spec-limit appeared. ASW 1.5076 ozt uses the official nominal weights.",
+      "fineness": 0.999
+    },
+    {
+      "year": 2023,
+      "kind": "mint",
+      "name": "2023 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 2024,
+      "kind": "proof",
+      "name": "2024 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular (clad / base-metal) proof set. No silver. Silver Proof sets, when issued, are listed as a separate product.",
+      "fineness": null
+    },
+    {
+      "year": 2024,
+      "kind": "silver_proof",
+      "name": "2024 Silver Proof Set",
+      "asw": 1.5076,
+      "status": "ok",
+      "silverCoins": ".999 fine dime, five American Women quarters, and half (same Mint nominal weights as 2019\u20132020).",
+      "note": "American Women Quarters program (five .999 silver quarters). Same dime/quarter/half nominal weights as 2019; Mint stated silver content did not change after catalog wording about a lower spec-limit appeared. ASW 1.5076 ozt uses the official nominal weights.",
+      "fineness": 0.999
+    },
+    {
+      "year": 2024,
+      "kind": "mint",
+      "name": "2024 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 2025,
+      "kind": "proof",
+      "name": "2025 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular (clad / base-metal) proof set. No silver. Silver Proof sets, when issued, are listed as a separate product.",
+      "fineness": null
+    },
+    {
+      "year": 2025,
+      "kind": "silver_proof",
+      "name": "2025 Silver Proof Set",
+      "asw": 1.5076,
+      "status": "ok",
+      "silverCoins": ".999 fine dime, five American Women quarters, and half (same Mint nominal weights as 2019\u20132020).",
+      "note": "American Women Quarters program (five .999 silver quarters). Same dime/quarter/half nominal weights as 2019; Mint stated silver content did not change after catalog wording about a lower spec-limit appeared. ASW 1.5076 ozt uses the official nominal weights.",
+      "fineness": 0.999
+    },
+    {
+      "year": 2025,
+      "kind": "mint",
+      "name": "2025 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 2026,
+      "kind": "proof",
+      "name": "2026 Proof Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None (copper-nickel clad / modern clad and base-metal denominations).",
+      "note": "Regular (clad / base-metal) proof set. No silver. Silver Proof sets, when issued, are listed as a separate product.",
+      "fineness": null
+    },
+    {
+      "year": 2026,
+      "kind": "silver_proof",
+      "name": "2026 Silver Proof Set",
+      "asw": 1.5076,
+      "status": "ok",
+      "silverCoins": ".999 fine dime, five quarters, and half (Semiquincentennial / 1776\u20132026 designs), using the same Mint nominal weights as 2019+.",
+      "note": "2026 Silver Proof Set is described as including five 99.9% silver quarters plus the silver dime and half. ASW uses the same official 2019+ nominal weights (1.5076 ozt). If a particular packaging variant adds or omits a silver coin, treat it as varies.",
+      "fineness": 0.999
+    },
+    {
+      "year": 2026,
+      "kind": "mint",
+      "name": "2026 Uncirculated Mint Set",
+      "asw": 0,
+      "status": "ok",
+      "silverCoins": "None in the regular uncirculated / mint set (clad or base-metal denominations, including clad Ike or SBA dollars where included).",
+      "note": "Regular uncirculated mint set has no silver. 40% Ikes (1971\u201374, 1976) and later silver products were sold separately.",
+      "fineness": null
+    },
+    {
+      "year": 0,
+      "kind": "special",
+      "name": "Limited Edition Silver Proof Set (various years)",
+      "asw": null,
+      "status": "varies",
+      "silverCoins": "Standard Silver Proof silver coins plus a Proof Silver Eagle (and sometimes other extras). Contents and years of issue vary.",
+      "note": "Do not use the standard Silver Proof Set ASW for a Limited Edition set. The added American Silver Eagle changes the total; confirm the coins in the box rather than assuming a year.",
+      "fineness": null
+    }
+  ]
+}

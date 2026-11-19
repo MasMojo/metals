@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#10120e">
-  <meta name="description" content="Historical gold, silver, platinum, palladium, bitcoin and ratio charts, plus a performance index.">
+  <meta name="description" content="Historical gold, silver, platinum, palladium, copper, bitcoin and ratio charts, plus a performance index with a CPI overlay.">
   <title>Charts — Stack Mojo</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="assets/icons/icon-192.png">
@@ -40,7 +40,7 @@
     <section class="hero">
       <div>
         <h1 id="chart-title">Price history</h1>
-        <p class="lede">1W through All, using public history committed to this project. Metals series are from Standard Bullion (with required attribution). Bitcoin and ether are from CoinGecko. Copper history grows from daily snapshots.</p>
+        <p class="lede">1W through All, using public history committed to this project. Metals series are from Standard Bullion (with required attribution). Bitcoin and ether are from CoinGecko. Copper uses FRED monthly global prices (converted to $/lb) plus daily snapshots. The performance index can overlay CPI-U and optionally show real, inflation-adjusted returns.</p>
       </div>
     </section>
     <div class="toolbar">
@@ -69,12 +69,17 @@
         <button type="button" data-range="5Y">5Y</button>
         <button type="button" data-range="ALL">All</button>
       </div>
+      <label class="toggle" id="real-toggle-wrap" hidden>
+        <input type="checkbox" id="real-toggle">
+        Real (inflation-adjusted)
+      </label>
     </div>
     <div class="card">
       <div class="chart-box" id="chart"><div class="placeholder" id="chart-placeholder">Loading chart…</div></div>
       <p class="muted" id="chart-attrib" style="margin:10px 0 0"></p>
     </div>
-    <p class="muted" style="margin-top:12px">The performance index rebases each series to 100 at the start of the selected window so you can compare percentage moves, not dollar prices. CPI is not included in v1 (no reliable no-key public feed was wired in).</p>
+    <p class="muted" id="cpi-lag" hidden style="margin-top:12px"></p>
+    <p class="muted" style="margin-top:12px">The performance index rebases each series to 100 at the start of the selected window so you can compare percentage moves, not dollar prices. In nominal mode a dashed CPI-U line is overlaid, also rebased to 100. Turn on <em>Real (inflation-adjusted)</em> to deflate prices with that CPI (latest month = 100 cents of purchasing power) and then rebase. CPI is monthly and lags — the note above names the latest observation in the committed file.</p>
 
 </main>
   <script src="js/prices.js"></script>
@@ -83,7 +88,7 @@
   <footer class="site-footer">
     <div class="wrap">
       <p><strong>Indicative prices, not quotes, not financial advice.</strong> Figures can be delayed or wrong. Verify before you trade.</p>
-      <p>Live last prices: <a href="https://gold-api.com">Gold API</a>. Bid/ask, day change, and metals history: <a href="https://standardbullion.com">Data by Standard Bullion</a>. Bitcoin and ether 24-hour change and last-year history: <a href="https://www.coingecko.com">CoinGecko</a>. Longer Bitcoin history: <a href="https://www.blockchain.com">Blockchain.com</a>.</p>
+      <p>Live last prices: <a href="https://gold-api.com">Gold API</a>. Bid/ask, day change, and metals history: <a href="https://standardbullion.com">Data by Standard Bullion</a>. Bitcoin and ether 24-hour change and last-year history: <a href="https://www.coingecko.com">CoinGecko</a>. Longer Bitcoin history: <a href="https://www.blockchain.com">Blockchain.com</a>. CPI-U and monthly copper: <a href="https://fred.stlouisfed.org">FRED</a> series CPIAUCSL and PCOPPUSDM (no API key; copper converted from USD/metric ton to USD/lb).</p>
       <p>Stack Mojo is a free public dashboard. Holdings entered in My Stack stay in this browser only and are never uploaded. There are no dealer prices on this site.</p>
     </div>
   </footer>
