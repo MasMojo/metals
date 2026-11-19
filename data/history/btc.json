@@ -23756,10 +23756,12 @@
     },
     {
       "t": "2026-11-19T00:00:00Z",
-      "price": 62598.282920261125
+      "price": 62479.480469,
+      "grain": "daily",
+      "source": "Gold API"
     }
   ],
-  "updated": "2026-11-18T21:47:08-0600",
+  "updated": "2026-11-19T11:11:44-0600",
   "source": "Blockchain.com + CoinGecko",
   "source_url": "https://www.coingecko.com",
   "attribution": "Recent history: CoinGecko (public API, last 365 days). Longer Bitcoin history: Blockchain.com market-price chart (https://www.blockchain.com)."
