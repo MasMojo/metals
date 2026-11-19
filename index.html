@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10120e">
+  <meta name="description" content="Live gold, silver, platinum, palladium, copper, bitcoin and ether spots, ratios, and tools.">
+  <title>Dashboard — Stack Mojo</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/icons/icon-192.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=IBM+Plex+Mono:wght@400;500&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/app.css">
+  <script src="js/core.js"></script>
+
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html">
+        <span class="mark" aria-hidden="true">M</span>
+        <span><span class="brand-name">Stack <span>Mojo</span></span><span class="brand-tag">Spot · Ratios · Tools</span></span>
+      </a>
+      <nav class="primary" aria-label="Primary">
+        <a href="index.html"  aria-current="page">Dashboard</a>
+        <a href="charts.html" >Charts</a>
+        <a href="calculators.html" >Calculators</a>
+        <a href="stack.html" >My Stack</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-btn" type="button" id="theme-toggle" title="Toggle theme" aria-label="Toggle color theme">◐</button>
+      </div>
+    </div>
+  </header>
+
+<main class="wrap">
+
+    <section class="hero">
+      <div>
+        <h1>Live metals and crypto spots</h1>
+        <p class="lede">Gold, silver, platinum, palladium, copper, bitcoin, and ether — last prices from Gold API, with bid/ask and day change from Standard Bullion, plus 24-hour crypto moves from CoinGecko.</p>
+      </div>
+      <div class="meta-row">
+        <span class="pill" id="market-status"><span class="dot"></span> Checking market…</span>
+        <span class="pill" id="last-updated">Updating…</span>
+      </div>
+    </section>
+    <p class="notice" id="feed-error" hidden></p>
+    <section class="grid quotes" id="quotes" aria-live="polite"></section>
+    <h2>Ratios</h2>
+    <section class="grid quotes" id="ratios"></section>
+    <section class="card" id="alert-box" style="margin-top:22px">
+      <h2>Price alerts</h2>
+      <p class="muted">Local only, and only while this page is open in this browser. Nothing is sent to a server.</p>
+      <form id="alert-form" class="form-grid" style="margin:12px 0">
+        <label>Asset
+          <select name="asset">
+            <option value="xau">Gold</option><option value="xag">Silver</option>
+            <option value="xpt">Platinum</option><option value="xpd">Palladium</option>
+            <option value="hg">Copper</option><option value="btc">Bitcoin</option><option value="eth">Ethereum</option>
+          </select>
+        </label>
+        <label>When
+          <select name="op"><option value="above">crosses above</option><option value="below">crosses below</option></select>
+        </label>
+        <label>Price (USD)
+          <input name="price" type="number" step="any" required>
+        </label>
+        <label>&nbsp;<button class="btn btn-gold" type="submit">Add alert</button></label>
+      </form>
+      <ul id="alert-list"></ul>
+    </section>
+
+</main>
+  <script src="js/prices.js"></script>
+  <script src="js/dashboard.js"></script>
+  <script src="js/alerts.js"></script>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p><strong>Indicative prices, not quotes, not financial advice.</strong> Figures can be delayed or wrong. Verify before you trade.</p>
+      <p>Live last prices: <a href="https://gold-api.com">Gold API</a>. Bid/ask, day change, and metals history: <a href="https://standardbullion.com">Data by Standard Bullion</a>. Bitcoin and ether 24-hour change and last-year history: <a href="https://www.coingecko.com">CoinGecko</a>. Longer Bitcoin history: <a href="https://www.blockchain.com">Blockchain.com</a>.</p>
+      <p>Stack Mojo is a free public dashboard. Holdings entered in My Stack stay in this browser only and are never uploaded. There are no dealer prices on this site.</p>
+    </div>
+  </footer>
+  <script>
+    document.getElementById("theme-toggle")?.addEventListener("click", () => Mojo.toggleTheme());
+  </script>
+  <script src="js/sw-register.js"></script>
+</body>
+</html>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10120e">
+  <meta name="description" content="Melt calculator, junk and scrap shortcuts, premium/discount and generic spread tools.">
+  <title>Calculators — Stack Mojo</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/icons/icon-192.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=IBM+Plex+Mono:wght@400;500&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/app.css">
+  <script src="js/core.js"></script>
+
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html">
+        <span class="mark" aria-hidden="true">M</span>
+        <span><span class="brand-name">Stack <span>Mojo</span></span><span class="brand-tag">Spot · Ratios · Tools</span></span>
+      </a>
+      <nav class="primary" aria-label="Primary">
+        <a href="index.html" >Dashboard</a>
+        <a href="charts.html" >Charts</a>
+        <a href="calculators.html"  aria-current="page">Calculators</a>
+        <a href="stack.html" >My Stack</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-btn" type="button" id="theme-toggle" title="Toggle theme" aria-label="Toggle color theme">◐</button>
+      </div>
+    </div>
+  </header>
+
+<main class="wrap">
+
+    <section class="hero" id="calc-page">
+      <div>
+        <h1>Calculators</h1>
+        <p class="lede">Melt values, junk and scrap shortcuts, a premium/discount worksheet, and a generic spread tool. Enter your own buy and sell prices — this site does not list dealers.</p>
+      </div>
+    </section>
+    <p id="calc-error" class="notice" hidden></p>
+    <div class="tabs" role="tablist">
+      <button type="button" data-tab="melt" aria-selected="true">Melt</button>
+      <button type="button" data-tab="dash">Melt dashboard</button>
+      <button type="button" data-tab="quick">Quick calcs</button>
+      <button type="button" data-tab="prem">Premium / discount</button>
+      <button type="button" data-tab="spread">Spread / value</button>
+    </div>
+
+    <section class="panel card" id="panel-melt">
+      <h2>Melt calculator</h2>
+      <div class="form-grid">
+        <label>Item <select id="melt-item"></select></label>
+        <label>Quantity <span id="melt-unit-hint" class="muted"></span> <input id="melt-qty" type="number" min="0" step="any" value="1"></label>
+      </div>
+      <div class="calc-out" style="margin-top:14px">
+        <div>Spot used: <span id="melt-spot">—</span></div>
+        <div>Fine metal: <span id="melt-oz">—</span></div>
+        <div>Melt value: <span class="big" id="melt-value">—</span></div>
+        <div class="muted" id="melt-note"></div>
+      </div>
+    </section>
+
+    <section class="panel card" id="panel-dash" hidden>
+      <h2>Melt dashboard</h2>
+      <p class="muted">One unit of each item at the live spot. $1 face of 90% silver uses 0.7234 ozt ASW.</p>
+      <div id="melt-dashboard"></div>
+    </section>
+
+    <section class="panel card" id="panel-quick" hidden>
+      <h2>Quick calculators</h2>
+      <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap:16px">
+        <div>
+          <h3>90% junk by face</h3>
+          <label>$ face <input id="q-90-face" type="number" min="0" step="any" value="1"></label>
+          <div class="calc-out" style="margin-top:10px">
+            <div id="q-90-oz">—</div>
+            <div class="big" id="q-90-val">—</div>
+          </div>
+          <p class="muted">Uses 0.7234 ozt per $1 face.</p>
+        </div>
+        <div>
+          <h3>90% junk by gross weight</h3>
+          <label>Gross troy oz of coins <input id="q-90-wt" type="number" min="0" step="any" value="1"></label>
+          <div class="calc-out" style="margin-top:10px">
+            <div id="q-90-wt-oz">—</div>
+            <div class="big" id="q-90-wt-val">—</div>
+          </div>
+          <p class="muted">Assumes 90% fine by weight (unworn).</p>
+        </div>
+        <div>
+          <h3>Scrap gold by karat</h3>
+          <label>Grams <input id="q-karat-g" type="number" min="0" step="any" value="10"></label>
+          <label>Karat <input id="q-karat" type="number" min="1" max="24" step="any" value="14"></label>
+          <div class="calc-out" style="margin-top:10px">
+            <div id="q-karat-oz">—</div>
+            <div class="big" id="q-karat-val">—</div>
+          </div>
+        </div>
+        <div>
+          <h3>.999 fine by ounce</h3>
+          <label>Troy ounces <input id="q-999-oz" type="number" min="0" step="any" value="1"></label>
+          <label>Metal
+            <select id="q-999-metal">
+              <option value="XAG">Silver</option>
+              <option value="XAU">Gold</option>
+              <option value="XPT">Platinum</option>
+              <option value="XPD">Palladium</option>
+            </select>
+          </label>
+          <div class="calc-out" style="margin-top:10px">
+            <div class="big" id="q-999-val">—</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel card" id="panel-prem" hidden>
+      <h2>Premium / discount</h2>
+      <div class="tabs">
+        <button type="button" data-prem-tab="buy" aria-selected="true">Buy</button>
+        <button type="button" data-prem-tab="sell">Sell</button>
+      </div>
+      <div class="form-grid">
+        <label>Metal
+          <select id="p-metal">
+            <option value="XAG">Silver</option><option value="XAU">Gold</option>
+            <option value="XPT">Platinum</option><option value="XPD">Palladium</option>
+          </select>
+        </label>
+        <label>Fine ounces per unit <input id="p-oz" type="number" min="0" step="any" value="1"></label>
+        <label>Price per unit <input id="p-price" type="number" min="0" step="any" value=""></label>
+        <label>Quantity <input id="p-qty" type="number" min="0" step="any" value="1"></label>
+        <label>Shipping $ <input id="p-ship" type="number" step="any" value="0"></label>
+        <label>Tax % <input id="p-tax" type="number" step="any" value="0"></label>
+        <label>Card / fee % <input id="p-fee" type="number" step="any" value="0"></label>
+      </div>
+      <div class="calc-out" style="margin-top:14px">
+        <div>Melt of the lot: <span id="p-melt">—</span></div>
+        <div><span id="p-net-label">Total paid</span>: <span id="p-net">—</span></div>
+        <div>Premium vs melt: <span class="big" id="p-prem">—</span></div>
+      </div>
+    </section>
+
+    <section class="panel card" id="panel-spread" hidden>
+      <h2>Spread / value</h2>
+      <p class="muted">Type any ask and buy-back you were quoted. The site does not supply dealer prices.</p>
+      <div class="form-grid">
+        <label>Metal
+          <select id="s-metal">
+            <option value="XAG">Silver</option><option value="XAU">Gold</option>
+            <option value="XPT">Platinum</option><option value="XPD">Palladium</option>
+          </select>
+        </label>
+        <label>Fine ounces <input id="s-oz" type="number" min="0" step="any" value="1"></label>
+        <label>Dealer ask (you pay) <input id="s-ask" type="number" min="0" step="any"></label>
+        <label>Dealer buy-back (they pay) <input id="s-bid" type="number" min="0" step="any"></label>
+        <label>Override spot (optional) <input id="s-spot" type="number" min="0" step="any" placeholder="Uses live spot if blank"></label>
+      </div>
+      <div class="calc-out" style="margin-top:14px">
+        <div>Spot used: <span id="s-spot-used">—</span> · Melt: <span id="s-melt">—</span></div>
+        <div>Premium over spot: <span id="s-prem">—</span></div>
+        <div>Buy-back vs spot: <span id="s-bidvs">—</span></div>
+        <div>Round-trip spread: <span id="s-spread">—</span></div>
+        <div>Breakeven spot move: <span class="big" id="s-be">—</span></div>
+      </div>
+      <p class="muted">Breakeven is the spot move per ounce needed for the buy-back to cover what you paid, ignoring shipping and tax.</p>
+    </section>
+    <script>
+      document.querySelectorAll(".tabs [data-tab]").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          document.querySelectorAll(".tabs [data-tab]").forEach((b) => b.setAttribute("aria-selected", b === btn ? "true" : "false"));
+          const id = btn.dataset.tab;
+          document.querySelectorAll(".panel").forEach((p) => { p.hidden = p.id !== "panel-" + id; });
+        });
+      });
+    </script>
+
+</main>
+  <script src="js/prices.js"></script>
+  <script src="js/calc.js"></script>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p><strong>Indicative prices, not quotes, not financial advice.</strong> Figures can be delayed or wrong. Verify before you trade.</p>
+      <p>Live last prices: <a href="https://gold-api.com">Gold API</a>. Bid/ask, day change, and metals history: <a href="https://standardbullion.com">Data by Standard Bullion</a>. Bitcoin and ether 24-hour change and last-year history: <a href="https://www.coingecko.com">CoinGecko</a>. Longer Bitcoin history: <a href="https://www.blockchain.com">Blockchain.com</a>.</p>
+      <p>Stack Mojo is a free public dashboard. Holdings entered in My Stack stay in this browser only and are never uploaded. There are no dealer prices on this site.</p>
+    </div>
+  </footer>
+  <script>
+    document.getElementById("theme-toggle")?.addEventListener("click", () => Mojo.toggleTheme());
+  </script>
+  <script src="js/sw-register.js"></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10120e">
+  <meta name="description" content="Local-only holdings tracker valued at live spot. Data stays in your browser.">
+  <title>My Stack — Stack Mojo</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/icons/icon-192.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=IBM+Plex+Mono:wght@400;500&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/app.css">
+  <script src="js/core.js"></script>
+
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html">
+        <span class="mark" aria-hidden="true">M</span>
+        <span><span class="brand-name">Stack <span>Mojo</span></span><span class="brand-tag">Spot · Ratios · Tools</span></span>
+      </a>
+      <nav class="primary" aria-label="Primary">
+        <a href="index.html" >Dashboard</a>
+        <a href="charts.html" >Charts</a>
+        <a href="calculators.html" >Calculators</a>
+        <a href="stack.html"  aria-current="page">My Stack</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-btn" type="button" id="theme-toggle" title="Toggle theme" aria-label="Toggle color theme">◐</button>
+      </div>
+    </div>
+  </header>
+
+<main class="wrap">
+
+    <section class="hero" id="stack-page">
+      <div>
+        <h1>My Stack</h1>
+        <p class="lede">Track holdings on this device and value them at live spot.</p>
+      </div>
+    </section>
+    <p class="notice"><strong>Data stays on this device only.</strong> Lots are saved in your browser’s localStorage. Nothing is sent to Stack Mojo, GitHub, or any server. Export a JSON backup if you switch browsers or clear site data. This is not a custodian, account, or cloud portfolio.</p>
+    <div class="grid quotes" id="stack-summary" style="margin:18px 0"></div>
+    <div class="grid quotes" id="stack-by-metal" style="margin-bottom:18px"></div>
+    <section class="card">
+      <h2>Add a lot</h2>
+      <form id="stack-add" class="form-grid">
+        <label>Name <input name="name" required placeholder="e.g. 1 oz silver rounds"></label>
+        <label>Metal
+          <select name="metal">
+            <option value="XAG">Silver</option><option value="XAU">Gold</option>
+            <option value="XPT">Platinum</option><option value="XPD">Palladium</option>
+            <option value="HG">Copper</option>
+          </select>
+        </label>
+        <label>Quantity <input name="qty" type="number" min="0" step="any" value="1" required></label>
+        <label>Fine oz per unit <input name="ozEach" type="number" min="0" step="any" value="1" required></label>
+        <label>Cost basis (total $) <input name="cost" type="number" min="0" step="any" value="0"></label>
+        <label>Notes <input name="notes" placeholder="Optional"></label>
+        <label>&nbsp;<button class="btn btn-gold" type="submit">Add to this browser</button></label>
+      </form>
+    </section>
+    <section class="card" style="margin-top:16px; overflow:auto">
+      <h2>Holdings on this device</h2>
+      <table>
+        <thead><tr><th>Name</th><th>Metal</th><th class="num">Qty</th><th class="num">Fine oz</th><th class="num">Cost</th><th class="num">Value</th><th class="num">P/L</th><th>Notes</th><th></th></tr></thead>
+        <tbody id="stack-body"></tbody>
+      </table>
+      <p class="toolbar" style="margin-top:14px">
+        <button class="btn" type="button" id="stack-export">Export JSON</button>
+        <label class="btn">Import JSON <input id="stack-import" type="file" accept="application/json" hidden></label>
+        <button class="btn" type="button" id="stack-clear">Clear this browser</button>
+      </p>
+    </section>
+
+</main>
+  <script src="js/prices.js"></script>
+  <script src="js/stack.js"></script>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p><strong>Indicative prices, not quotes, not financial advice.</strong> Figures can be delayed or wrong. Verify before you trade.</p>
+      <p>Live last prices: <a href="https://gold-api.com">Gold API</a>. Bid/ask, day change, and metals history: <a href="https://standardbullion.com">Data by Standard Bullion</a>. Bitcoin and ether 24-hour change and last-year history: <a href="https://www.coingecko.com">CoinGecko</a>. Longer Bitcoin history: <a href="https://www.blockchain.com">Blockchain.com</a>.</p>
+      <p>Stack Mojo is a free public dashboard. Holdings entered in My Stack stay in this browser only and are never uploaded. There are no dealer prices on this site.</p>
+    </div>
+  </footer>
+  <script>
+    document.getElementById("theme-toggle")?.addEventListener("click", () => Mojo.toggleTheme());
+  </script>
+  <script src="js/sw-register.js"></script>
+</body>
+</html>

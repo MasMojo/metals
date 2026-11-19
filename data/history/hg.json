@@ -1,0 +1,13 @@
+{
+  "id": "hg",
+  "symbol": "HG",
+  "name": "Copper",
+  "unit": "USD per pound",
+  "points": [
+    {
+      "t": "2026-11-18T00:00:00Z",
+      "price": 5.764857
+    }
+  ],
+  "updated": "2026-11-18T20:42:01-0600"
+}

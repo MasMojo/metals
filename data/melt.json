@@ -1,0 +1,354 @@
+{
+  "disclaimer": "Melt figures are conventional published weights, not assays. Circulated coins may be lighter. Indicative only.",
+  "troy_oz_grams": 31.1034768,
+  "items": [
+    {
+      "id": "us90",
+      "name": "US 90% junk silver (dimes, quarters, halves)",
+      "short": "90% junk",
+      "metal": "XAG",
+      "category": "junk",
+      "unit": "face",
+      "unitLabel": "$1 face",
+      "ozPerUnit": 0.7234,
+      "note": "Conventional $1 face ASW is 0.7234 troy oz (new). Circulated bags are sometimes valued at ~0.715."
+    },
+    {
+      "id": "us40kennedy",
+      "name": "US 40% Kennedy halves (1965–1970)",
+      "short": "40% Kennedy",
+      "metal": "XAG",
+      "category": "junk",
+      "unit": "face",
+      "unitLabel": "$1 face",
+      "ozPerUnit": 0.2958,
+      "note": "Two halves = $1 face ≈ 0.2958 ozt ASW (0.1479 ozt per half)."
+    },
+    {
+      "id": "us35warnickel",
+      "name": "US 35% war nickels (1942–1945)",
+      "short": "War nickels",
+      "metal": "XAG",
+      "category": "junk",
+      "unit": "face",
+      "unitLabel": "$1 face",
+      "ozPerUnit": 1.1253,
+      "note": "20 nickels = $1 face. About 0.05626 ozt ASW per coin."
+    },
+    {
+      "id": "us40ike",
+      "name": "US 40% Eisenhower dollars (silver Ikes)",
+      "short": "40% Ikes",
+      "metal": "XAG",
+      "category": "junk",
+      "unit": "coin",
+      "unitLabel": "coin ($1)",
+      "ozPerUnit": 0.3162,
+      "note": "Silver-clad Ike, about 0.3162 ozt ASW per dollar."
+    },
+    {
+      "id": "ase",
+      "name": "American Silver Eagle (1 oz)",
+      "short": "Silver Eagle",
+      "metal": "XAG",
+      "category": "bullion",
+      "unit": "coin",
+      "unitLabel": "coin",
+      "ozPerUnit": 1.0
+    },
+    {
+      "id": "maple_ag",
+      "name": "Canadian Silver Maple Leaf (1 oz)",
+      "short": "Silver Maple",
+      "metal": "XAG",
+      "category": "bullion",
+      "unit": "coin",
+      "unitLabel": "coin",
+      "ozPerUnit": 1.0
+    },
+    {
+      "id": "britannia_ag",
+      "name": "British Silver Britannia (1 oz, modern)",
+      "short": "Silver Britannia",
+      "metal": "XAG",
+      "category": "bullion",
+      "unit": "coin",
+      "unitLabel": "coin",
+      "ozPerUnit": 1.0
+    },
+    {
+      "id": "krug_ag",
+      "name": "Silver Krugerrand (1 oz)",
+      "short": "Silver Krugerrand",
+      "metal": "XAG",
+      "category": "bullion",
+      "unit": "coin",
+      "unitLabel": "coin",
+      "ozPerUnit": 1.0
+    },
+    {
+      "id": "kook",
+      "name": "Silver Kookaburra (1 oz)",
+      "short": "Kookaburra",
+      "metal": "XAG",
+      "category": "bullion",
+      "unit": "coin",
+      "unitLabel": "coin",
+      "ozPerUnit": 1.0
+    },
+    {
+      "id": "phil_ag",
+      "name": "Vienna Philharmonic silver (1 oz)",
+      "short": "Philharmonic Ag",
+      "metal": "XAG",
+      "category": "bullion",
+      "unit": "coin",
+      "unitLabel": "coin",
+      "ozPerUnit": 1.0
+    },
+    {
+      "id": "generic_ag_1",
+      "name": "Generic 1 oz silver (round or coin)",
+      "short": "1 oz silver",
+      "metal": "XAG",
+      "category": "bullion",
+      "unit": "coin",
+      "unitLabel": "oz",
+      "ozPerUnit": 1.0
+    },
+    {
+      "id": "bar_ag_10",
+      "name": "10 oz silver bar",
+      "short": "10 oz silver",
+      "metal": "XAG",
+      "category": "bullion",
+      "unit": "bar",
+      "unitLabel": "bar",
+      "ozPerUnit": 10.0
+    },
+    {
+      "id": "sterling",
+      "name": "Sterling silver (.925)",
+      "short": "Sterling",
+      "metal": "XAG",
+      "category": "scrap",
+      "unit": "gram",
+      "unitLabel": "gram",
+      "ozPerUnit": 0.029739,
+      "fine": 0.925,
+      "note": "Fine ounces = grams × 0.925 / 31.1034768."
+    },
+    {
+      "id": "fine_ag",
+      "name": ".999 / .9999 fine silver (by weight)",
+      "short": ".999 silver",
+      "metal": "XAG",
+      "category": "scrap",
+      "unit": "troy_oz",
+      "unitLabel": "troy oz",
+      "ozPerUnit": 1.0
+    },
+    {
+      "id": "age",
+      "name": "American Gold Eagle (1 oz)",
+      "short": "Gold Eagle",
+      "metal": "XAU",
+      "category": "bullion",
+      "unit": "coin",
+      "unitLabel": "coin",
+      "ozPerUnit": 1.0,
+      "note": "Contains 1.000 ozt gold (22k, ~1.0909 oz coin weight)."
+    },
+    {
+      "id": "maple_au",
+      "name": "Canadian Gold Maple Leaf (1 oz)",
+      "short": "Gold Maple",
+      "metal": "XAU",
+      "category": "bullion",
+      "unit": "coin",
+      "unitLabel": "coin",
+      "ozPerUnit": 1.0
+    },
+    {
+      "id": "krug_au",
+      "name": "Gold Krugerrand (1 oz)",
+      "short": "Krugerrand",
+      "metal": "XAU",
+      "category": "bullion",
+      "unit": "coin",
+      "unitLabel": "coin",
+      "ozPerUnit": 1.0,
+      "note": "Contains 1.000 ozt gold (22k)."
+    },
+    {
+      "id": "buffalo_au",
+      "name": "American Gold Buffalo (1 oz)",
+      "short": "Gold Buffalo",
+      "metal": "XAU",
+      "category": "bullion",
+      "unit": "coin",
+      "unitLabel": "coin",
+      "ozPerUnit": 1.0
+    },
+    {
+      "id": "britannia_au",
+      "name": "British Gold Britannia (1 oz)",
+      "short": "Gold Britannia",
+      "metal": "XAU",
+      "category": "bullion",
+      "unit": "coin",
+      "unitLabel": "coin",
+      "ozPerUnit": 1.0
+    },
+    {
+      "id": "bar_au_1",
+      "name": "1 oz gold bar",
+      "short": "1 oz gold bar",
+      "metal": "XAU",
+      "category": "bullion",
+      "unit": "bar",
+      "unitLabel": "bar",
+      "ozPerUnit": 1.0
+    },
+    {
+      "id": "k24",
+      "name": "24k gold (.999+)",
+      "short": "24k",
+      "metal": "XAU",
+      "category": "karat",
+      "unit": "gram",
+      "unitLabel": "gram",
+      "ozPerUnit": 0.0321507,
+      "fine": 1.0
+    },
+    {
+      "id": "k22",
+      "name": "22k gold (.9167)",
+      "short": "22k",
+      "metal": "XAU",
+      "category": "karat",
+      "unit": "gram",
+      "unitLabel": "gram",
+      "ozPerUnit": 0.0294715,
+      "fine": 0.9167
+    },
+    {
+      "id": "k18",
+      "name": "18k gold (.750)",
+      "short": "18k",
+      "metal": "XAU",
+      "category": "karat",
+      "unit": "gram",
+      "unitLabel": "gram",
+      "ozPerUnit": 0.0241131,
+      "fine": 0.75
+    },
+    {
+      "id": "k14",
+      "name": "14k gold (.5833)",
+      "short": "14k",
+      "metal": "XAU",
+      "category": "karat",
+      "unit": "gram",
+      "unitLabel": "gram",
+      "ozPerUnit": 0.0187535,
+      "fine": 0.5833
+    },
+    {
+      "id": "k10",
+      "name": "10k gold (.4167)",
+      "short": "10k",
+      "metal": "XAU",
+      "category": "karat",
+      "unit": "gram",
+      "unitLabel": "gram",
+      "ozPerUnit": 0.0133972,
+      "fine": 0.4167
+    },
+    {
+      "id": "sov",
+      "name": "Gold Sovereign (UK)",
+      "short": "Sovereign",
+      "metal": "XAU",
+      "category": "foreign_gold",
+      "unit": "coin",
+      "unitLabel": "coin",
+      "ozPerUnit": 0.2354,
+      "note": "About 0.2354 ozt gold."
+    },
+    {
+      "id": "napoleon",
+      "name": "French 20 Franc (Napoleon)",
+      "short": "20 Franc",
+      "metal": "XAU",
+      "category": "foreign_gold",
+      "unit": "coin",
+      "unitLabel": "coin",
+      "ozPerUnit": 0.1867
+    },
+    {
+      "id": "helvetia",
+      "name": "Swiss 20 Franc (Helvetia)",
+      "short": "20 Franc Helvetia",
+      "metal": "XAU",
+      "category": "foreign_gold",
+      "unit": "coin",
+      "unitLabel": "coin",
+      "ozPerUnit": 0.1867
+    },
+    {
+      "id": "pesos50",
+      "name": "Mexican 50 Pesos (Centenario)",
+      "short": "50 Pesos",
+      "metal": "XAU",
+      "category": "foreign_gold",
+      "unit": "coin",
+      "unitLabel": "coin",
+      "ozPerUnit": 1.2057
+    },
+    {
+      "id": "goldback",
+      "name": "Goldback (informational)",
+      "short": "Goldback",
+      "metal": "XAU",
+      "category": "informational",
+      "unit": "note",
+      "unitLabel": "Goldback",
+      "ozPerUnit": 0.001,
+      "note": "A 1 Goldback note is designed to contain 1/1000 troy oz of gold. This is informational melt only, not a valuation of the note as currency or collectible."
+    },
+    {
+      "id": "proof_pre64",
+      "name": "US Proof / Mint set, 1964 and earlier (90% coins)",
+      "short": "Pre-64 proof/mint set",
+      "metal": "XAG",
+      "category": "sets",
+      "unit": "set",
+      "unitLabel": "set",
+      "ozPerUnit": 0.6873,
+      "note": "Half + quarter + two dimes = $0.95 face × 0.7234 ≈ 0.6873 ozt. Nickel and cent are not silver. Year and composition vary; verify the set."
+    },
+    {
+      "id": "proof_1965_67",
+      "name": "US Special Mint set 1965–1967 (no 90% silver)",
+      "short": "1965–67 SMS",
+      "metal": "XAG",
+      "category": "sets",
+      "unit": "set",
+      "unitLabel": "set",
+      "ozPerUnit": 0,
+      "note": "These circulation-style sets have no 90% silver. Melt is $0 unless a later silver issue is in the set."
+    },
+    {
+      "id": "proof_silver",
+      "name": "Modern US silver proof set (typical, 90% or .999 halves/dimes/quarters)",
+      "short": "Modern silver proof set",
+      "metal": "XAG",
+      "category": "sets",
+      "unit": "set",
+      "unitLabel": "set",
+      "ozPerUnit": 0,
+      "note": "Silver content varies widely by year. Enter a custom fine-ounce amount, or check the Mint's spec for that year."
+    }
+  ]
+}
