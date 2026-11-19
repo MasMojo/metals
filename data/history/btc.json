@@ -23750,14 +23750,14 @@
     },
     {
       "t": "2026-11-18T00:00:00Z",
-      "price": 64889.41287553966
+      "price": 62588.5
     },
     {
       "t": "2026-11-19T00:00:00Z",
       "price": 62598.282920261125
     }
   ],
-  "updated": "2026-11-18T20:46:30-0600",
+  "updated": "2026-11-18T20:49:24-0600",
   "source": "Blockchain.com + CoinGecko",
   "source_url": "https://www.coingecko.com",
   "attribution": "Recent history: CoinGecko (public API, last 365 days). Longer Bitcoin history: Blockchain.com market-price chart (https://www.blockchain.com)."
