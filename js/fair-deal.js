@@ -134,7 +134,7 @@
   function moneyDelta(n) {
     if (n == null || Number.isNaN(n)) return "—";
     const sign = n > 0 ? "+" : "";
-    return sign + Mojo.formatMoney(n);
+    return sign + Mojo.formatMoney(n, 2);
   }
 
   function pct(n) {
