@@ -22,8 +22,7 @@
   }
 
   function ranges(q) {
-    if (!q.changes) return "";
-    const c = q.changes;
+    const c = q.changes || {};
     const bits = [];
     if (c["1w"] != null) bits.push(`1W ${Mojo.formatPct(c["1w"])}`);
     if (c["1m"] != null) bits.push(`1M ${Mojo.formatPct(c["1m"])}`);
