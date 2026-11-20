@@ -2934,9 +2934,15 @@
       "price": 5.72048,
       "grain": "daily",
       "source": "Gold API"
+    },
+    {
+      "t": "2026-11-20T00:00:00Z",
+      "price": 5.618724,
+      "grain": "daily",
+      "source": "Gold API"
     }
   ],
-  "updated": "2026-11-19T11:11:44-0600",
+  "updated": "2026-11-20T11:02:30-0600",
   "source": "FRED PCOPPUSDM (monthly global) and Gold API (daily snapshots)",
   "source_url": "https://fred.stlouisfed.org/series/PCOPPUSDM",
   "conversion": "USD per metric ton / 2204.6226218 = USD per avoirdupois pound",
