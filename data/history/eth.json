@@ -1473,9 +1473,15 @@
       "price": 1643.579956,
       "grain": "daily",
       "source": "Gold API"
+    },
+    {
+      "t": "2026-11-23T00:00:00Z",
+      "price": 1759.26001,
+      "grain": "daily",
+      "source": "Gold API"
     }
   ],
-  "updated": "2026-11-20T11:02:30-0600",
+  "updated": "2026-11-23T11:09:29-0600",
   "source": "CoinGecko",
   "source_url": "https://www.coingecko.com",
   "attribution": "Recent history: CoinGecko (public API, last 365 days)."
