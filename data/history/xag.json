@@ -6667,10 +6667,16 @@
       "price": 43.455002,
       "grain": "daily",
       "source": "Gold API"
+    },
+    {
+      "t": "2026-11-24T00:00:00Z",
+      "price": 40.740002,
+      "grain": "daily",
+      "source": "Gold API"
     }
   ],
   "source": "Standard Bullion",
   "attribution": "Data by Standard Bullion \u2014 https://standardbullion.com",
   "source_url": "https://standardbullion.com",
-  "updated": "2026-11-23T11:09:29-0600"
+  "updated": "2026-11-24T11:10:40-0600"
 }
