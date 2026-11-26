@@ -1,15 +1,15 @@
 {
-  "run_date": "2026-11-25",
-  "fetched_at_ct": "2026-11-25 11:10:37 CT",
+  "run_date": "2026-11-26",
+  "fetched_at_ct": "2026-11-26 11:15:08 CT",
   "timezone": "America/Chicago",
   "live": {
     "xau": {
       "status": "ok",
       "symbol": "XAU",
       "name": "Gold",
-      "price": 3486.699951,
+      "price": 3570.149902,
       "currency": "USD",
-      "updatedAt": "2026-11-25T17:10:16Z",
+      "updatedAt": "2026-11-26T17:14:48Z",
       "unit": "USD per troy ounce",
       "source": "Gold API",
       "source_url": "https://gold-api.com"
@@ -18,9 +18,9 @@
       "status": "ok",
       "symbol": "XAG",
       "name": "Silver",
-      "price": 39.259998,
+      "price": 41.298,
       "currency": "USD",
-      "updatedAt": "2026-11-25T17:10:16Z",
+      "updatedAt": "2026-11-26T17:14:47Z",
       "unit": "USD per troy ounce",
       "source": "Gold API",
       "source_url": "https://gold-api.com"
@@ -29,9 +29,9 @@
       "status": "ok",
       "symbol": "XPT",
       "name": "Platinum",
-      "price": 1230.75,
+      "price": 1285.449951,
       "currency": "USD",
-      "updatedAt": "2026-11-25T17:10:19Z",
+      "updatedAt": "2026-11-26T17:14:51Z",
       "unit": "USD per troy ounce",
       "source": "Gold API",
       "source_url": "https://gold-api.com"
@@ -40,9 +40,9 @@
       "status": "ok",
       "symbol": "XPD",
       "name": "Palladium",
-      "price": 826.25,
+      "price": 865.0,
       "currency": "USD",
-      "updatedAt": "2026-11-25T17:10:18Z",
+      "updatedAt": "2026-11-26T17:14:50Z",
       "unit": "USD per troy ounce",
       "source": "Gold API",
       "source_url": "https://gold-api.com"
@@ -51,9 +51,9 @@
       "status": "ok",
       "symbol": "HG",
       "name": "Copper",
-      "price": 5.351105,
+      "price": 5.382932,
       "currency": "USD",
-      "updatedAt": "2026-11-25T17:10:19Z",
+      "updatedAt": "2026-11-26T17:14:50Z",
       "unit": "USD per pound",
       "source": "Gold API",
       "source_url": "https://gold-api.com"
@@ -62,9 +62,9 @@
       "status": "ok",
       "symbol": "BTC",
       "name": "Bitcoin",
-      "price": 59072.390625,
+      "price": 60507.320312,
       "currency": "USD",
-      "updatedAt": "2026-11-25T17:10:17Z",
+      "updatedAt": "2026-11-26T17:14:49Z",
       "unit": "USD per bitcoin",
       "source": "Gold API",
       "source_url": "https://gold-api.com"
@@ -73,9 +73,9 @@
       "status": "ok",
       "symbol": "ETH",
       "name": "Ethereum",
-      "price": 1657.109985,
+      "price": 1692.47998,
       "currency": "USD",
-      "updatedAt": "2026-11-25T17:10:17Z",
+      "updatedAt": "2026-11-26T17:14:49Z",
       "unit": "USD per ether",
       "source": "Gold API",
       "source_url": "https://gold-api.com"
@@ -85,7 +85,7 @@
     "source": "Standard Bullion",
     "url": "https://standardbullion.com",
     "unit": "USD per troy ounce",
-    "updated": "2026-11-25T17:10:45.737Z",
+    "updated": "2026-11-26T17:15:12.785Z",
     "attribution": "Data by Standard Bullion \u2014 https://standardbullion.com",
     "disclaimer": "Indicative live dealer prices, updated continuously during market hours. Ask = price to buy; Bid = price to sell to us.",
     "metals": [
@@ -93,80 +93,80 @@
         "symbol": "XAU",
         "name": "Gold",
         "page": "https://standardbullion.com/spot-gold-price",
-        "ask": 3501.98,
-        "bid": 3488.47,
-        "open": 3565.7,
+        "ask": 3581.05,
+        "bid": 3567.32,
+        "open": 3590.31,
         "changeToday": {
-          "amount": -63.72,
-          "percent": -1.79
+          "amount": -9.26,
+          "percent": -0.26
         },
         "changes": {
-          "1w": -3.07,
-          "1m": -13.82,
-          "1y": -15.43
+          "1w": 0.56,
+          "1m": -11.71,
+          "1y": -13.87
         }
       },
       {
         "symbol": "XAG",
         "name": "Silver",
         "page": "https://standardbullion.com/spot-silver-price",
-        "ask": 39.7174,
-        "bid": 39.4726,
-        "open": 41.1814,
+        "ask": 41.7932,
+        "bid": 41.538,
+        "open": 41.4825,
         "changeToday": {
-          "amount": -1.46,
-          "percent": -3.56
+          "amount": 0.31,
+          "percent": 0.75
         },
         "changes": {
-          "1w": -6.94,
-          "1m": -27.16,
-          "1y": -22.9
+          "1w": 0.37,
+          "1m": -22.45,
+          "1y": -21.33
         }
       },
       {
         "symbol": "XPT",
         "name": "Platinum",
         "page": "https://standardbullion.com/spot-platinum-price",
-        "ask": 1261.11,
-        "bid": 1244.01,
-        "open": 1286.79,
+        "ask": 1309,
+        "bid": 1290.25,
+        "open": 1307.065,
         "changeToday": {
-          "amount": -25.68,
-          "percent": -2
+          "amount": 1.93,
+          "percent": 0.15
         },
         "changes": {
-          "1w": -6.67,
-          "1m": -18.78,
-          "1y": -18.56
+          "1w": -0.34,
+          "1m": -15.37,
+          "1y": -19.14
         }
       },
       {
         "symbol": "XPD",
         "name": "Palladium",
         "page": "https://standardbullion.com/spot-palladium-price",
-        "ask": 853.97,
-        "bid": 836.85,
-        "open": 857.75,
+        "ask": 891.25,
+        "bid": 873.3,
+        "open": 869.075,
         "changeToday": {
-          "amount": -3.78,
-          "percent": -0.44
+          "amount": 22.17,
+          "percent": 2.55
         },
         "changes": {
-          "1w": -6.56,
-          "1m": -18.25,
-          "1y": -39.16
+          "1w": -1.77,
+          "1m": -13.47,
+          "1y": -38.39
         }
       }
     ]
   },
   "coingecko": {
     "bitcoin": {
-      "usd": 59086,
-      "usd_24h_change": -1.0009575695484596
+      "usd": 60502,
+      "usd_24h_change": 2.2143353211177623
     },
     "ethereum": {
-      "usd": 1657.05,
-      "usd_24h_change": -0.9350621113139923
+      "usd": 1692.05,
+      "usd_24h_change": 2.001617242593671
     }
   }
 }
